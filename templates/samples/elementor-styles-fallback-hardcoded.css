@@ -1,0 +1,2004 @@
+@font-face {
+  font-family: 'Mattone';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url('https://jolie.vamtam.com/wp-content/uploads/2021/07/Mattone-150.woff2') format('woff2'),
+    url('https://jolie.vamtam.com/wp-content/uploads/2021/07/Mattone-150.woff') format('woff');
+}
+
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKV-Go6G5tXcraQI2GwZoREDFs.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKV-Go6G5tXcraQI2GwfYREDFs.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKV-Go6G5tXcraQI2GwfIREDFs.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKV-Go6G5tXcraQI2GwcoRE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI82hZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI82hZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI82hZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI82hZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6miZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6miZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6miZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6miZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcraQKxaAcJxA.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcraQKw2AcJxA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcraQKwyAcJxA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcraQKwKAcA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI_GjZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI_GjZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI_GjZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI_GjZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI92kZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI92kZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI92kZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI92kZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI7mlZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI7mlZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI7mlZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI7mlZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6WmZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6WmZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6WmZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI6WmZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI4GnZbdhMWJy.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI4GnZaxhMWJy.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI4GnZa1hMWJy.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKS-Go6G5tXcraQI4GnZaNhMQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcr72KxaAcJxA.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcr72Kw2AcJxA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcr72KwyAcJxA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKX-Go6G5tXcr72KwKAcA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5aOhWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5aOhWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5aOhWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5aOhWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4-ORWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4-ORWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4-ORWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4-ORWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKZ-Go6G5tXcraBGwCYdA.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKZ-Go6G5tXcraaGwCYdA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKZ-Go6G5tXcrabGwCYdA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKZ-Go6G5tXcraVGwA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5mOBWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5mOBWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5mOBWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5mOBWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5KPxWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5KPxWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5KPxWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr5KPxWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4uPhWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4uPhWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4uPhWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4uPhWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4yPRWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4yPRWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4yPRWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4yPRWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* thai */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4WPBWzVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4WPBWoVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4WPBWpVaF5NQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://fonts.gstatic.com/s/kanit/v7/nKKU-Go6G5tXcr4WPBWnVaE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html {
+  background: var(--vamtam-accent-color-2);
+}
+html body {
+  --vamtam-site-max-width: 660px;
+  --vamtam-left-sidebar-width: 25%;
+  --vamtam-accent-color-6-transparent: rgba(var(--vamtam-accent-color-6-rgb),.6);
+
+  --vamtam-widget-text-darker: #1b1b1b;
+  --vamtam-widget-text-lighter: #000;
+  --vamtam-content-space-xxl: calc(var(--vamtam-content-space-l) * 2);
+  --vamtam-content-space-xl: calc(var(--vamtam-content-space-l) * 1.5);
+  --vamtam-content-space-l: min( 4vh, 40px );
+  --vamtam-content-space-m: calc(var(--vamtam-content-space-l) * 0.4);
+  --vamtam-content-space-s: calc(var(--vamtam-content-space-l) * 0.2);
+  --vamtam-content-space-xs: calc(var(--vamtam-content-space-l) * 0.1);
+  --vamtam-sidebar-content-margin: var(--vamtam-content-space-l);
+  --vamtam-left-sidebar-width: 30%;
+  --vamtam-right-sidebar-width: 30%;
+  background: var(--vamtam-accent-color-2);
+  --vamtam-h1-font-size-desktop: max(72px);
+  --vamtam-h2-font-size-desktop: max(54px);
+}
+
+b, strong {
+  font-weight: 500;
+}
+
+.woocommerce .woocommerce-error:not(form.login):not(form.register), .woocommerce .woocommerce-info:not(form.login):not(form.register), .woocommerce .woocommerce-message:not(form.login):not(form.register), .woocommerce form.login:not(form.login):not(form.register), .woocommerce form.register:not(form.login):not(form.register) {
+  background-color: transparent;
+}
+
+.woocommerce-store-notice, p.demo_store {
+  background-color: var(--vamtam-accent-color-6);
+  color: var(--vamtam-accent-color-6-hc);
+}
+
+body .post-content ul li,
+body .post-content ol li,
+body .page-content ul li,
+body .page-content ol li {
+  margin-block-start: 0.6em; /* update */
+}
+
+html body.single-post.layout-full .limit-wrapper:not(.header-maybe-limit-wrapper) {
+  --vamtam-site-max-width: 660px;
+}
+
+html body.single-post.layout-full #sub-header .limit-wrapper:not(.header-maybe-limit-wrapper) {
+  --vamtam-site-max-width: 1260px;
+}
+
+html body.single-post.layout-full .main-header .limit-wrapper {
+  --vamtam-site-max-width: 1260px;
+}
+
+code, kbd, pre, samp {
+  font-size: inherit;
+}
+
+body.layout-full .meta-header .meta-header-inside .vamtam-meta-tax,
+body.layout-full .meta-header .meta-header-inside .vamtam-meta-tax a {
+  text-align: center;
+}
+
+body .fixed-header-box .logo-wrapper .logo.text-logo,
+body .fixed-header-box .logo-wrapper .logo.text-logo:hover {
+  color: var(--vamtam-accent-color-1);
+  font-family: var(--vamtam-h1-font-family);
+  font-weight: normal;
+  font-size: 190%;
+  line-height: 100%;
+}
+body .fixed-header-box .logo-wrapper .site-tagline {
+  text-transform: uppercase;;
+  font-size: 0.5em;
+  letter-spacing: 1px;
+  padding-top: 2px;
+}
+body .loop-wrapper.regular .list-item .post-content-outer:not(:first-child) {
+  padding-top: 25px;
+}
+
+
+
+body .page-wrapper>aside.left {
+  border-right: solid 1px var(--vamtam-default-line-color);
+  margin-right: 5%;
+  padding-right: 5%;
+}
+
+
+.fixed-header-box .cart-dropdown {
+  margin-left: 20px;
+}
+.fixed-header-box .cart-dropdown .cart-dropdown-inner {
+  width: auto;
+  height: auto;
+}
+.vamtam-cart-dropdown-link .products {
+  font-family: inherit; /* body font */
+  font-weight: 400;
+  background: var(--vamtam-accent-color-6);
+  color: var(--vamtam-accent-color-5);
+  top: 3px;
+  right: 3px;
+}
+.vamtam-cart-dropdown-link {
+  width: 54px;
+  height: 54px;
+  background: none;
+}
+.vamtam-cart-dropdown-link svg {
+  margin-top: 14px;
+  width: 24px;
+  height: 24px;
+  fill: var(--vamtam-body-link-regular);
+}
+.vamtam-cart-dropdown-link:hover svg {
+  fill: var(--vamtam-body-link-hover);
+}
+.vamtam-cart-dropdown-link:hover .products, .vamtam-cart-dropdown-link:hover .products.cart-empty {
+  color: var(--vamtam-accent-color-5);
+}
+
+#main-menu .menu {
+  justify-content: center;
+}
+#main-menu .menu>.menu-item {
+  margin: 0;
+}
+#main-menu .menu>.menu-item .sub-menu a {
+  font-weight: normal;
+}
+#main-menu .menu>.menu-item>a {
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  padding: 30px 20px;
+  margin: 0;
+}
+
+#main-menu .menu>.menu-item>.sub-menu-wrapper>.sub-menu{
+  top: 0;
+}
+
+#main-menu .menu>.menu-item .sub-menu .menu-item:first-child,
+#main-menu .menu>.menu-item .sub-menu .menu-item:last-child {
+    padding: 0;
+}
+#main-menu .menu>.menu-item>a::after {
+  bottom: 25px!important;
+}
+
+.button, .vamtam-cart-collaterals input[name=apply_coupon], .woocommerce #content input.button, .woocommerce #place_order, .woocommerce #respond input#submit,
+.woocommerce #respond input#submit.alt, .woocommerce .button.wc-backward, .woocommerce .cross-sells .add_to_cart_button, .woocommerce .woocommerce-Button.button, .woocommerce .woocommerce-button.button, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit,
+.woocommerce .woocommerce-message .vamtam-close-notice-btn, .woocommerce a.added_to_cart, .woocommerce a.button, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce button.button.alt, .woocommerce button.button.alt.disabled, .woocommerce input.button, .woocommerce input.button.alt, .woocommerce-page #content input.button,
+.woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon],
+.woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon], a.comment-reply-link, button, input[type=button], input[type=submit] {
+  background: var(--vamtam-accent-color-2);
+  color: var(--vamtam-accent-color-2-hc);
+  text-decoration: underline;
+  font-size: 14px;
+}
+body #commentform #submit {
+  padding: 20px 50px !important;
+}
+.comments a.comment-reply-link, .woocommerce #reviews #comments a.comment-reply-link {
+  font-size: max(11px);
+  padding: 7px 20px;
+  line-height: var( --e-global-typography-line-height );
+}
+.button:hover, .vamtam-cart-collaterals input[name=apply_coupon]:hover, .woocommerce #content input.button:hover, .woocommerce #place_order:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce .button.wc-backward:hover, .woocommerce .cross-sells .add_to_cart_button:hover,
+.woocommerce .woocommerce-Button.button:hover, .woocommerce .woocommerce-button.button:hover, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit:hover, .woocommerce .woocommerce-message .vamtam-close-notice-btn:hover, .woocommerce a.added_to_cart:hover, .woocommerce a.button.alt:hover, .woocommerce a.button:hover, .woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:hover, .woocommerce button.button:hover, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover,
+.woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button:hover, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button:hover, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon]:hover, .woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon]:hover,
+a.comment-reply-link:hover, button:hover, input[type=button]:hover, input[type=submit]:hover {
+  background: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc);
+}
+
+.woocommerce #payment ul.payment_methods .about_paypal, .woocommerce .woocommerce-info .showcoupon, .woocommerce .woocommerce-info .showlogin, .woocommerce.woocommerce-cart .cart-collaterals .shipping-calculator-button {
+  text-decoration: none !important;
+  font-weight: 400;
+}
+
+/* Blog listing */
+body .loop-wrapper.regular .list-item header h4 {
+  font: var(--vamtam-h4-font-style,normal) var(--vamtam-h4-font-weight,normal) 20px/30px var(--vamtam-h4-font-family);
+  margin: 0px;
+}
+
+
+body .loop-wrapper.regular .list-item header h4 a {
+  color: var(--vamtam-body-link-regular);
+}
+body .loop-wrapper.regular .list-item header h4 a:hover {
+  color: var(--vamtam-body-link-regular);
+}
+body .loop-wrapper.regular .list-item .post-content-outer .excerpt:not(:last-child), body .loop-wrapper.regular .list-item .post-content-outer .excerpt p {
+  font-size: 14px;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: left;
+}
+body .loop-wrapper.regular .list-item.sticky .post-content-outer {
+  background: var(--vamtam-accent-color-4);
+}
+body .loop-wrapper.regular .list-item.sticky .excerpt p {
+  color: var(--vamtam-widget-text-lighter);
+}
+body .loop-wrapper.regular .list-item .post-content-outer .excerpt:not(:last-child),
+body .loop-wrapper.regular .list-item .post-content-outer .excerpt p {
+  margin-bottom: 0;
+}
+body .loop-wrapper.regular .list-item .post-row .vamtam-meta-date {
+  margin-bottom: var(--vamtam-content-space-m);
+  width: 100%;
+}
+body .loop-wrapper.regular .list-item .post-row .vamtam-meta-date a{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: var( --vamtam-accent-color-3 );
+}
+
+
+html body.single-post .single-post-wrapper .post-content-outer .single-post-meta-bottom .the-tags {
+  border-top: solid 1px var(--vamtam-default-line-color);
+  padding-top: var(--vamtam-content-space-l);
+  margin-top:  var(--vamtam-content-space-l);
+  display: block;
+}
+body .loop-wrapper .vamtam-meta-comments svg, body .loop-wrapper .vamtam-meta-tax.the-tags svg {
+  margin-right: 8px;
+  height: 14px;
+}
+body .loop-wrapper .vamtam-meta-tax.the-tags a {
+  margin-left: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body .loop-wrapper .vamtam-meta-tax.the-tags a:hover, body .comments-wrapper .logged-in-as a:hover, body .comments #cancel-comment-reply-link:hover, body .comments .comment-meta>.comment-meta-inner>a:hover {
+  color: var(--vamtam-body-link-hover);
+}
+body .loop-wrapper.regular .list-item .post-content-outer .read-more {
+  text-decoration: underline;
+  display: none;
+}
+body .meta-header .page-header .desc,
+body .meta-header .page-header .desc p {
+  margin-bottom: 0;
+}
+body .meta-header .meta-header-inside {
+  padding: var(--vamtam-content-space-xl) 0 var(--vamtam-content-space-m) 0;
+}
+
+html body.vamtam-limited-layout #sub-header {
+  border: 0;
+}
+body:not(.single-post) .meta-header .meta-header-inside {
+  padding: var(--vamtam-content-space-l) 0 var(--vamtam-content-space-L) 0;
+}
+
+:not(.single-post-wrapper)>.loop-wrapper .post-article p {
+  margin-bottom: calc(var(--vamtam-content-space-m) + 5px);
+}
+
+
+
+
+/* Blog post */
+.meta-header .meta-header-inside .vamtam-meta-tax, .meta-header .meta-header-inside .vamtam-meta-tax a {
+  margin-bottom: 3vh;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+body.single-post .meta-header .meta-header-inside::after {
+  content: " ";
+  height: 1px;
+  width: 100%;
+  margin: 4vh 0 0vh 0;
+  background: var(--vamtam-accent-color-7);
+}
+body.single-post:not(.layout-left-only):not(.layout-right-only) .meta-header .meta-header-inside::after {
+  margin: 4vh auto 4vh auto;
+  width: 100px;
+}
+html body.single-post .single-post-meta-wrapper .meta-top {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+html body.single-post .single-post-meta-wrapper .meta-top .with-separator {
+  padding: 0;
+}
+body.single-post:not(.layout-left-only):not(.layout-right-only) article>.page-content {
+  padding-top: 0;
+}
+html body.single-post .single-post-meta-wrapper .meta-top .meta-left {
+  grid-gap: 0 14px;
+}
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-author,
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-comments,
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-date,
+body.single-post:not(.layout-left-only):not(.layout-right-only) .loop-wrapper .meta-top .vamtam-meta-tax {
+  line-height: 2.5em !important;
+}
+html body .loop-wrapper .meta-top .vamtam-meta-comments svg {
+  display: none;
+  margin: 0;
+}
+
+html body .loop-wrapper .meta-top a:hover {
+  color: var(--vamtam-body-link-hover);
+}
+html body .loop-wrapper .meta-top .vamtam-meta-author svg,
+html body .loop-wrapper .meta-top .vamtam-meta-date svg,
+html body .loop-wrapper .meta-top .vamtam-meta-comments svg,
+html body .loop-wrapper .meta-top .vamtam-meta-tax svg {
+  content: " ";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  margin-top: -3px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: var(--vamtam-accent-color-6-transparent);
+}
+html body .loop-wrapper .meta-top .vamtam-meta-comments svg {
+  margin-right: 10px;
+}
+html body .loop-wrapper .meta-top .vamtam-meta-comments::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' %3E%3Cpath fill='currentColor' d='M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64z' %3E%3C/path%3E%3C/svg%3E");
+}
+
+body.single-post .single-post-meta-wrapper .meta-top .meta-left .with-separator span:not(:last-child) {
+  margin-right: 40px;
+}
+.comments-wrapper label {
+  font-weight: 300;
+}
+
+body .comments #respond, body.woocommerce #reviews #comments #respond {
+  padding: 0;
+}
+body .comments #respond .comment-reply-title {
+  border: 0;
+}
+body .comments .comment-author-link a, body .woocommerce #reviews #comments .comment-author-link {
+  font-weight: 500;
+}
+.comments .comment-time, .woocommerce #reviews #comments .comment-time {
+  color: var(--vamtam-accent-color-6);
+}
+.comments .comment-meta>.comment-meta-inner>a:last-child, .comments .comment-meta>.comment-meta-inner>div:last-child, .woocommerce #reviews #comments .comment-meta>.comment-meta-inner>a:last-child, .woocommerce #reviews #comments .comment-meta>.comment-meta-inner>div:last-child {
+  font-size: max(12px);
+  line-height: 1.2em;
+}
+.comments .comment .comment-content p, .woocommerce #reviews #comments .comment .comment-content p {
+  font-size: max(16px);
+}
+.comments #cancel-comment-reply-link, .woocommerce #reviews #comments #cancel-comment-reply-link {
+  font-size: max(16px);
+  margin-left: 10px;
+  border-left: solid 1px var(--vamtam-default-line-color);
+  padding-left: 10px;
+  text-transform: none;
+  color: var(--vamtam-body-link-regular);
+}
+.comments .comment .comment-content p+.comment-reply-link, .woocommerce #reviews #comments .comment .comment-content p+.comment-reply-link {
+  margin-top: -0.9em;
+}
+.wp-block-gallery .blocks-gallery-caption {
+  font-size: max(14px);
+}
+blockquote {
+  padding: .6em 2em;
+  font-style: inherit;
+  border: none !important;
+  background-color: var(--vamtam-accent-color-1);
+  text-align: center;
+}
+blockquote  p {
+  font: var(--vamtam-h4-font-style,normal) var(--vamtam-h4-font-weight,normal) var(--vamtam-h4-font-size-desktop)/var(--vamtam-h4-line-height-desktop) var(--vamtam-h4-font-family) !important;
+}
+
+
+/* TEMP FIX, Need to remove! */
+html body.single-post .single-post-meta-wrapper .meta-top .meta-left.has-author {
+    grid-template-columns: auto;
+}
+/* END temp */
+
+body select {
+  background-size: 10px !important;
+}
+
+/* Woo */
+body .page-header .page-header-line {
+  border: 0;
+}
+body.woocommerce.archive .page-header {
+  text-align: center;
+}
+.vamtam-limited-layout.single-product .main-container {
+  border: none;
+}
+.woocommerce .woocommerce-ordering select {
+  min-height: 40px!important;
+  line-height: 30px;
+}
+.woocommerce .woocommerce-result-count {
+  font-size: max(14px);
+  line-height: 3.1em;
+}
+.wc-block-sort-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wc-block-grid__product .wc-block-grid__product-image {
+  margin-bottom: 1.2em;
+}
+.wc-block-grid__product .wc-block-grid__product-add-to-cart {
+  margin: 0;
+}
+.wc-block-grid__product .wc-block-grid__product-rating {
+  display: inline-block;
+  margin: auto;
+}
+.widget .wc-block-grid li.wc-block-grid__product {
+  margin-bottom: 1px;
+  padding: 30px 30px 30px 30px !important;
+  background: var(--vamtam-accent-color-5);
+  border-bottom: none;
+}
+.widget .wc-block-grid.has-2-columns li.wc-block-grid__product {
+  padding: 20px 20px 20px 20px !important;
+}
+.widget .wc-block-grid li.wc-block-grid__product:first-child {
+  border-left-width: 0;
+}
+.widget .wc-block-grid.has-2-columns li.wc-block-grid__product:nth-child(2n+0){
+  border-left: 8px solid transparent;
+    border-left: solid 1px var(--vamtam-accent-color-2);
+}
+.widget .wc-block-grid li.wc-block-grid__product:last-child {
+  border-right-width: 0;
+}
+.widget .wc-block-grid.has-1-columns li.wc-block-grid__product {
+    border-width: 0;
+}
+.widget .wc-block-grid:not(.has-1-columns) li.wc-block-grid__product .wp-block-button__link {
+  padding: 12px 5px;
+  width: 100%;
+}
+.wc-block-grid.has-aligned-buttons .wc-block-grid__product>:last-child {
+  margin: 0;
+}
+.wc-block-attribute-filter .wc-block-attribute-filter-list li label {
+  margin-left: 10px;
+  font-size: inherit;
+}
+.wc-block-active-filters .wc-block-active-filters__list li ul {
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+  margin: 0 0 .7em;
+  padding: 0px 0px 1em 0px;
+}
+.wc-block-active-filters .wc-block-active-filters__list li {
+  padding-bottom: .3em;
+}
+.wc-block-active-filters .wc-block-active-filters__list-item-name {
+  font-weight: 600;
+}
+.wc-block-active-filters .wc-block-active-filters__clear-all {
+  font-size: 12px;
+  color: var(--vamtam-body-link-regular);
+}
+.wc-block-active-filters .wc-block-active-filters__clear-all:hover {
+  color: var(--vamtam-body-link-hover);
+}
+.widget .wc-block-components-dropdown-selector {
+  max-width: 340px;
+}
+.widget .wc-block-components-dropdown-selector__input-wrapper,
+.is-single.has-checked.is-open .wc-block-components-dropdown-selector__input {
+  border-radius: 0;
+  padding: 10px 20px;
+  border: 1px solid var(--vamtam-default-line-color);
+}
+.widget .wc-block-components-dropdown-selector__input {
+  margin: 0.4em 0;
+  padding: 0.4em 0.2em;
+}
+.wc-block-components-dropdown-selector__list:not(:empty) {
+  border-color: var(--vamtam-default-line-color);
+}
+.widget li.wc-block-components-dropdown-selector__list-item,
+.widget li.wc-block-components-dropdown-selector__list-item:first-child {
+  padding: 0.5em 1.5em !important;
+}
+.wc-block-components-dropdown-selector__list-item.is-selected {
+  background-color: var(--vamtam-default-line-color);
+  color: var(--vamtam-widget-text-darker);
+}
+.wc-block-components-dropdown-selector__list-item.is-highlighted, .wc-block-components-dropdown-selector__list-item:active, .wc-block-components-dropdown-selector__list-item:focus, .wc-block-components-dropdown-selector__list-item:hover {
+  background-color: var(--vamtam-accent-color-6);
+  color: var(--vamtam-accent-color-6-hc);
+}
+.wc-block-components-dropdown-selector .wc-block-components-dropdown-selector__selected-value__label {
+  font-weight: 600;
+  font-size: 14px;
+}
+.widget ul.wp-block-page-list ul.submenu-container {
+  padding-top: 0.43em;
+}
+
+
+.vamtam-limited-layout .vamtam-body-sidebar .widget .widgettitle,
+.vamtam-limited-layout .vamtam-body-sidebar .widget div > h4,
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form label {
+  font: var(--vamtam-h4-font-style,normal) var(--vamtam-h4-font-weight,normal) var(--vamtam-h4-font-size-desktop)/var(--vamtam-h4-line-height-desktop) var(--vamtam-h4-font-family);
+  letter-spacing: var(--vamtam-h4-letter-spacing-desktop,normal);
+  text-transform: var(--vamtam-h4-transform,none);
+  text-decoration: var(--vamtam-h4-decoration,none);
+  color: var(--vamtam-widget-text-darker);
+  font-size: 1.6em;
+  margin-bottom: 1.4em;
+  margin-top: 0;
+  line-height: 1.3em;
+  font-weight: inherit;
+  padding: 0;
+  display: block;
+}
+.wc-block-components-dropdown-selector .wc-block-components-dropdown-selector__selected-value {
+  color: inherit;
+}
+.wc-block-active-filters .wc-block-active-filters__list-item-remove svg {
+  width: 14px;
+  height: auto;
+}
+.vamtam-body-sidebar, .vamtam-body-sidebar .widget select {
+  margin-bottom: 0 !important;
+}
+.wc-block-product-categories__button {
+  padding: 0 1.0em;
+}
+.wc-block-components-review-list-item__rating>.wc-block-components-review-list-item__rating__stars span:before {
+  color: var(--vamtam-accent-color-6);
+}
+.widget .wc-block-sort-select {
+  margin-bottom: 1.5em;
+}
+.widget .wc-block-sort-select select {
+  min-height: 40px!important;
+  line-height: 26px;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form input {
+  border-right: 0;
+}
+.wp-block-search .wp-block-search__button {
+  background: transparent;
+  border: 0;
+}
+.wp-block-search .wp-block-search__button svg {
+  transform: scale(1.4);
+}
+
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form button, .widget_search .wp-block-search__button-outside .wp-block-search__button.has-icon {
+  color: var(--vamtam-body-link-regular);
+  background: transparent;
+  border-bottom: solid 1px;
+  border-left: none;
+  margin: 0;
+  padding: 0 1.2em 0 1.2em;
+  min-height: 52px!important;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form button svg {
+  display: none;
+}
+.vamtam-limited-layout .vamtam-body-sidebar .wc-block-product-search form button:after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' id='search-icon' class='search-icon' viewBox='0 0 24 24' width='24' height='24'%3E%3Cpath d='M13.5 6C10.5 6 8 8.5 8 11.5c0 1.1.3 2.1.9 3l-3.4 3 1 1.1 3.4-2.9c1 .9 2.2 1.4 3.6 1.4 3 0 5.5-2.5 5.5-5.5C19 8.5 16.5 6 13.5 6zm0 9.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z'%3E%3C/path%3E%3C/svg%3E");
+  transform: scale(1.4);
+}
+
+.wc-block-components-review-list-item__author, .wc-block-components-review-list-item__product {
+  font-weight: 500;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  background: var(--vamtam-accent-color-5);
+  margin: 0 2.5% 2.5em 0;
+}
+.woocommerce ul.products.columns-3 li.product, .woocommerce-page ul.products.columns-3 li.product {
+  width: calc((100% - 2*2.5%)/3);
+}
+.woocommerce ul.products li.product.last, .woocommerce-page ul.products li.product.last {
+  margin-right: 0;
+}
+.woocommerce ul.products li.product .star-rating {
+  margin: auto auto 1em !important;
+}
+.woocommerce ul.products li.product-category.product .woocommerce-loop-category__title {
+  padding-top: 1.0em;
+}
+.woocommerce ul.products li.product-category.product .woocommerce-loop-category__title mark {
+  background: none;
+  font-weight: normal;
+}
+.woocommerce ul.products li.product>.vamtam-product-content ,
+.woocommerce ul.products li.product-category.product .vamtam-product-cat-content  {
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+}
+.woocommerce ul.products li.product>.vamtam-add-to-cart-wrap ,
+.woocommerce ul.products li.product-category.product .vamtam-hover-wrap {
+  padding: 0px 30px 30px 30px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3, .edit-post-visual-editor .editor-block-list__block .wc-block-grid__product-title, .editor-styles-wrapper .wc-block-grid__product-title, .wc-block-grid__product-title {
+  font-family:  var(--vamtam-h5-font-family);
+  font-weight: normal;
+  font-size: 18px;
+  padding: 0em 0 .6em 0;
+  overflow-wrap: break-word;
+  line-height: 1.3em;
+}
+.edit-post-visual-editor .editor-block-list__block .wc-block-grid__product-title, .editor-styles-wrapper .wc-block-grid__product-title, .wc-block-grid__product-title {
+  font-size: 14px;
+  line-height: 1.5em;
+  padding: 0em 0 .3em 0;
+  text-transform: uppercase;
+}
+.wc-block-featured-category .wc-block-featured-category__title, .wc-block-featured-product .wc-block-featured-product__title, .wc-block-featured-product .wc-block-featured-product__variation {
+  font-size: max(30px);
+}
+.woocommerce .button.product_type_external, .woocommerce .button.product_type_grouped, .woocommerce .button.product_type_variable, .woocommerce .vamtam-product-cat-btn, .woocommerce a.add_to_cart_button, .woocommerce a.added_to_cart, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button {
+  /* I'm not sure if we need these styles: https://www.dropbox.com/s/6bimlheqkh30fpf/Screenshot%202021-05-28%20at%2011.26.35.png?dl=0  */
+  font-weight: 600; /* remove this line ? */
+  font-size: 14px; /* remove this line ? */
+  line-height: initial; /* remove this line ? */
+}
+body .vamtam-body-sidebar .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  width: 100%;
+}
+.wp-block-button__link:active, .wp-block-button__link:focus, .wp-block-button__link:hover, .wp-block-button__link:visited {
+  color: inherit;
+}
+.woocommerce.woocommerce-cart table.shop_table .order-total th, .woocommerce.woocommerce-cart table.shop_table.woocommerce-table--order-details tfoot tr:last-child th, .woocommerce.woocommerce-checkout table.shop_table .order-total th, .woocommerce.woocommerce-checkout table.shop_table.woocommerce-table--order-details tfoot tr:last-child th, .woocommerce.woocommerce-cart table.shop_table strong, .woocommerce.woocommerce-checkout table.shop_table strong {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+strong.product-quantity {
+  font-weight: 300 !important;
+}
+body .select2-container--focus .select2-dropdown, body .select2-container--focus.select2-container--default .select2-selection--single, body .select2-container--open .select2-dropdown, body .select2-container--open.select2-container--default .select2-selection--single {
+  border-width: 1px !important;
+}
+.woocommerce div.product .summary p.price, .woocommerce div.product .summary p.price ins, .woocommerce div.product .summary span.price, .woocommerce div.product .summary span.price ins {
+  color: var(--vamtam-accent-color-6);
+  font-family: var(--vamtam-h5-font-family);
+  font-size: max(20px);
+  font-weight: 500;
+}
+.woocommerce.single-product form.cart #quantity+button, .woocommerce.single-product form.cart .quantity+button {
+  flex: none;
+}
+.woocommerce ul.products li.product a.button{
+  text-decoration: underline;
+}
+.woocommerce .products.vamtam-wc .product span.price {
+  font-weight: normal;
+  color: var(--vamtam-accent-color-6);
+  font-size: 16px;
+}
+ins {
+  color: inherit;
+}
+
+.woocommerce .products.vamtam-wc .product span.price ins{
+  color: inherit;
+}
+.woocommerce.widget_price_filter .price_slider_amount .button{
+  padding: 10px 30px 10px 30px;
+}
+.woocommerce ul.products li.product span.onsale {
+  font-family: inherit; /* remove this line */
+  font-weight: 500;
+}
+.woocommerce .product-category .vamtam-product-cat-info, .woocommerce .product-category .vamtam-product-cat-info>span, .woocommerce span.onsale, .wc-block-grid__product-onsale {
+  background: var(--vamtam-accent-color-5);
+  color: var(--vamtam-accent-color-5-hc);
+  border-radius: 0;
+  background: var(--vamtam-accent-color-5);
+  border: none;
+  padding: 0.6em 0em;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-height: auto;
+  width: 100%;
+}
+.woocommerce .product span.onsale {
+  width: auto;
+  padding: 10px 25px;
+  margin: 5px;
+}
+
+body.woocommerce ul.products li.product span.onsale {
+  min-height: 30px;
+  line-height: 30px;
+  width: 100%;
+  right: auto;
+  left: 0px;
+  margin: 0px;
+  padding: 0;
+}
+.wc-block-grid__product-onsale {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.woocommerce .star-rating {
+  float: none;
+  display: block;
+}
+.woocommerce .star-rating span::before, .woocommerce .star-rating::before {
+  color: var(--vamtam-accent-color-6);
+}
+.woocommerce .product_meta .posted_in, .woocommerce .product_meta .sku_wrapper, .woocommerce .product_meta .tagged_as {
+  font-weight: inherit;
+}
+
+.vamtam-main .select2-search--dropdown, .vamtam-main .select2.select2-container .select2-selection[role=combobox], .vamtam-main input[type=date], .vamtam-main input[type=email], .vamtam-main input[type=number], .vamtam-main input[type=password], .vamtam-main input[type=range], .vamtam-main input[type=search], .vamtam-main input[type=tel], .vamtam-main input[type=text], .vamtam-main input[type=url], .vamtam-main select, .vamtam-main textarea {
+  min-height: 47px;
+  line-height: inherit;
+  caret-color: auto !important;
+  border: 0;
+  border-bottom: solid 1px var(--vamtam-accent-color-6);
+  background: transparent;
+  padding: 6px 0;
+}
+
+.select2-search--dropdown-input:focus input, .select2-search--dropdown:hover input, .select2.select2-container .select2-selection[role=combobox]:focus, .select2.select2-container .select2-selection[role=combobox]:hover, input[type=date]:focus, input[type=date]:hover, input[type=email]:focus, input[type=email]:hover, input[type=number]:focus, input[type=number]:hover, input[type=password]:focus, input[type=password]:hover, input[type=range]:focus, input[type=range]:hover, input[type=search]:focus, input[type=search]:hover, input[type=tel]:focus, input[type=tel]:hover, input[type=text]:focus, input[type=text]:hover, input[type=url]:focus, input[type=url]:hover, select:focus, select:hover, textarea:focus, textarea:hover {
+  border-color: var(--vamtam-accent-color-1) !important;
+}
+
+.select2.select2-container .select2-selection[role=combobox], select {
+  background: transparent url(data:image/svg+xml,%3Csvg%20aria-hidden%3D%22true%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20320%20512%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M31.3%20192h257.3c17.8%200%2026.7%2021.5%2014.1%2034.1L174.1%20354.8c-7.8%207.8-20.5%207.8-28.3%200L17.2%20226.1C4.6%20213.5%2013.5%20192%2031.3%20192z%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 50%/12px!important;
+  text-transform: uppercase;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel {
+  padding: 2em 0 2em 0;
+}
+.woocommerce div.product .woocommerce-tabs>ul.tabs li a {
+  border: solid 1px var(--vamtam-default-line-color);
+  text-align: center;
+  padding: 15px 40px;
+  background-color: transparent;
+  margin: 0 5px;
+  font-size: max(16px);
+  font-weight: 500;
+}
+
+.woocommerce div.product .woocommerce-tabs>ul.tabs li.active a, .woocommerce div.product .woocommerce-tabs>ul.tabs li a:hover {
+  background-color: var(--vamtam-accent-color-1);
+  border-color: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc);
+}
+
+.woocommerce table.shop_attributes td, .woocommerce table.shop_attributes th {
+    padding: 10px 15px!important;
+}
+
+.woocommerce table.shop_table th,
+.woocommerce-MyAccount-content mark,
+.woocommerce-MyAccount-content strong,
+.woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+  font-weight: 500;
+}
+
+.woocommerce.woocommerce-account .woocommerce-MyAccount-navigation ul li {
+  margin: 0;
+}
+.woocommerce table.my_account_orders td, .woocommerce table.my_account_orders th {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid var(--vamtam-default-line-color);
+}
+.woocommerce-order-received .woocommerce .woocommerce-customer-details address, .woocommerce-view-order .woocommerce .woocommerce-customer-details address {
+  border-radius: 0;
+  padding: 1em;
+}
+.woocommerce table.shop_table th,
+.woocommerce.woocommerce-account table thead th {
+  padding: 1em;
+}
+.woocommerce table.shop_table td {
+  padding: 0.5em 1em ;
+}
+/* pagination */
+
+.post-type-archive-product .page-content .vamtam-pagination-wrapper {
+  border: none;
+}
+.navigation a, .navigation span, .navigation .current{
+  width: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.navigation a {
+  border: none;
+  color: var(--vamtam-body-link-regular);
+  background: none;
+}
+.navigation .current, .navigation a:not(.prev):not(.next):hover {
+  border: none;
+  color: var(--vamtam-body-link-hover);
+  background: none;
+}
+.navigation .next, .navigation .prev {
+  color: var(--vamtam-body-link-regular);
+  background: none;
+  width: 20px;
+}
+.navigation .next:hover, .navigation .prev:hover {
+  background: none;
+  color: var(--vamtam-body-link-hover);
+}
+.navigation .next:after, .navigation .prev:after {
+  font-size: .9em;
+  font-weight: 800!important;
+}
+.navigation .next:after {
+  content: "→";
+}
+.navigation .prev:after {
+  content: "←";
+}
+#scroll-to-top #scroll-to-top-text {
+  color: var(--vamtam-accent-color-6);
+  text-transform: uppercase;
+  font-family: var(--vamtam-body-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+#scroll-to-top svg {
+  width: 16px;
+  height: auto;
+  padding-top: 27px;
+}
+#scroll-to-top {
+  bottom: 60px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+  font-size: 2em;
+  margin-left: 0;
+  border: none;
+  text-shadow: none;
+  transition: opacity .3s ease-out,color .3s ease-out,transform .3s ease-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: scale3d(0,0,0);
+  text-align: center;
+  cursor: pointer;
+  background: var(--vamtam-accent-color-6-hc);
+  border-radius: 9999px;
+  background: url(https://jolie.vamtam.com/wp-content/uploads/2021/09/star-up.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#scroll-to-top:hover {
+  color: var(--vamtam-body-link-hover);
+}
+
+/* Cart */
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove a {
+  opacity: 0.4;
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove a:hover {
+  color: var(--vamtam-accent-color-2);
+  opacity: 1;
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-price .quantity .vamtam-quantity select {
+  transition: none;
+  border: solid 2px var( --e-global-color-vamtam_accent_2 ); /* Remove this line - to get it from EL options */
+}
+
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-collaterals .cart-collaterals,
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-collaterals .coupon,
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2,
+html body.woocommerce.woocommerce-checkout .woocommerce-form-login.login,
+html body.woocommerce.woocommerce-checkout .checkout_coupon,
+html body.woocommerce .blockUI.blockOverlay {
+  background-color: var(--vamtam-accent-color-4)!important;
+  border: 0;
+  border-top-width: 3px;
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .woocommerce-cart-form.processing .blockUI {
+  background: var(--vamtam-accent-color-2) !important;
+}
+.checkout-breadcrumb {
+  line-height: 1.0em;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--vamtam-h6-font-family);
+}
+
+html body.woocommerce .checkout-breadcrumb .title-part-inactive, html body.woocommerce .checkout-breadcrumb .title-part-inactive a:not(:hover),
+html body.woocommerce .checkout-breadcrumb .icon.shortcode {
+  color: rgba(var(--vamtam-accent-color-6-rgb),.4);
+}
+html body.woocommerce ul.products li.product a img{
+  width: calc(100% - 60px);
+  margin: 30px auto 0px auto !important;
+}
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 {
+  padding: 30px 30px 20px 30px;
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main {
+  padding: 50px 0 20px 0;
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .vamtam-cart__header {
+  padding-bottom: 5px;
+}
+.woocommerce .vamtam-cart-collaterals .cart_totals>h4 {
+  margin-top: .6em; /* Remove this line */
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .cart_item {
+  grid-row-gap: 0;
+  padding: 20px 0;
+}
+body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .woocommerce-billing-fields h3,
+body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .woocommerce-shipping-fields h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+html body.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+  border-top: solid 3px transparent;
+}
+#add_payment_method #payment ul.payment_methods li,
+.woocommerce-cart #payment ul.payment_methods li,
+.woocommerce-checkout #payment ul.payment_methods li {
+  line-height: inherit; /* remove this line */
+  margin: 0 0 2em; /* remove this line */
+}
+html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-name {
+  padding: .9em 25px 0 25px;
+}
+body .woocommerce .vamtam-cart-main .product-remove {
+  padding-top: 0;
+}
+body .woocommerce .vamtam-cart-main .product-remove a svg {
+  margin-top: 1rem;
+}
+body .woocommerce #quantity input.qty, .woocommerce .quantity input.qty {
+  max-width: 80px;
+  padding: 6px 10px;
+}
+body .woocommerce.single-product form.cart .quantity+button {
+  flex: none;
+}
+body .select2-container--focus .select2-dropdown,
+body .select2-container--focus.select2-container--default .select2-selection--single,
+body .select2-container--open .select2-dropdown,
+body .select2-container--open.select2-container--default .select2-selection--single {
+  border-radius: var(--vamtam-input-border-radius);
+  overflow: hidden;
+  border: 2px solid;
+}
+body .select2-search--dropdown .select2-search__field {
+  padding: 6px 20px;
+}
+body .select2-container--default .select2-selection--single .select2-selection__rendered, .select2-dropdown .select2-selection__rendered {
+  padding: initial; /* remove this line */
+}
+body #add_payment_method #payment ul.payment_methods li,
+body .woocommerce-cart #payment ul.payment_methods li,
+body .woocommerce-checkout #payment ul.payment_methods li {
+  margin: inherit;/* remove this line */
+}
+body .select2.select2-container .select2-selection[role=combobox] {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+body #add_payment_method .cart-collaterals .shipping-calculator-form  td p,
+body .woocommerce-cart .cart-collaterals .shipping-calculator-form  td p,
+body .woocommerce-checkout .cart-collaterals .shipping-calculator-form  td p{
+  margin: 0;
+}
+body .select2-container--default .select2-selection--single .select2-search--dropdown,
+body .select2-dropdown .select2-search--dropdown {
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+body .select2-container--default .select2-search--dropdown {
+  border-left: inherit;
+  border-right: inherit;
+}
+.select2-search--dropdown-input:focus input, .select2-search--dropdown:hover input, .select2.select2-container .select2-selection[role=combobox]:focus, .select2.select2-container .select2-selection[role=combobox]:hover, input[type=date]:focus, input[type=date]:hover, input[type=email]:focus, input[type=email]:hover, input[type=number]:focus,
+input[type=number]:hover, input[type=password]:focus, input[type=password]:hover, input[type=range]:focus, input[type=range]:hover, input[type=search]:focus, input[type=search]:hover, input[type=tel]:focus, input[type=tel]:hover, input[type=text]:focus,
+input[type=text]:hover, input[type=url]:focus, input[type=url]:hover, select:focus, select:hover, textarea:focus, textarea:hover {
+  border-color: var(--vamtam-default-line-color);
+}
+body .select2-container--open .select2-dropdown--above {
+  margin-top: -5px;
+}
+body .select2-container--open .select2-dropdown--below {
+  margin-top: 5px;
+}
+body.woocommerce.woocommerce-checkout label:not([for^=shipping_method]) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/* Notification styles */
+body .woocommerce .woocommerce-error,
+body .woocommerce .woocommerce-info,
+body .woocommerce .woocommerce-message,
+body.woocommerce.single-product .woocommerce-message {
+  border: 1px solid;
+  border-top-width: 3px;
+  margin: 1em 0;
+}
+body ul.woocommerce-error li:first-child {
+  margin-block-start: 0;
+}
+.woocommerce .woocommerce-error:not(form.login):not(form.register), .woocommerce .woocommerce-info:not(form.login):not(form.register), .woocommerce .woocommerce-message:not(form.login):not(form.register), .woocommerce form.login:not(form.login):not(form.register), .woocommerce form.register:not(form.login):not(form.register) {
+  border-width: 1px;
+  border-bottom-width: 3px;
+}
+body .woocommerce .woocommerce-info {
+  border-color: #1e85be;
+}
+body .woocommerce .woocommerce-info::before {
+  color: #1e85be;
+}
+body .woocommerce .woocommerce-message,
+body.woocommerce.single-product .woocommerce-message {
+  border-color: #8fae1b;
+}
+body .woocommerce .woocommerce-message::before {
+  color: #8fae1b;
+}
+body .woocommerce .woocommerce-error {
+  border-color: #b81c23;
+}
+body .woocommerce .woocommerce-error::before {
+  color: #b81c23;
+}
+
+
+body.woocommerce.woocommerce-checkout header.main-header.layout-single-row .first-row .logo-wrapper {
+  text-align: center;
+}
+
+/* Order details - I can't make this changes visible on the .vamtam.. https://www.dropbox.com/s/lb2m5gwsy1lzka5/Screenshot%202021-05-31%20at%200.25.01.png?dl=0 */
+
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 .woocommerce-checkout-review-order #payment ul.payment_methods {
+  padding: 0;
+}
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 .woocommerce-checkout-review-order #payment ul.payment_methods label{
+  text-transform: uppercase;
+}
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .col2-set .col-2 .woocommerce-checkout-review-order #payment .woocommerce-terms-and-conditions-wrapper p {
+  line-height: 1.4;
+  border: none;  /* remove this line */
+}
+html body.woocommerce.woocommerce-checkout form.checkout.woocommerce-checkout .form-row {
+  margin: 0 0 20px 0;
+}
+html body.woocommerce.woocommerce-checkout .checkout_coupon {
+  margin: 2em 0;  /* remove this line */
+}
+
+html header.main-header .header-padding {
+  padding: 10px 40px;
+}
+body .fixed-header-box .logo-wrapper .logo.text-logo, body .fixed-header-box .logo-wrapper .logo.text-logo:hover {
+  font-size: 120%;
+  line-height: 100%;
+  color: var(--vamtam-accent-color-6);
+  text-transform: uppercase;
+}
+#main-menu .menu>.menu-item .sub-menu {
+  width: 240px;
+}
+label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+.button, .vamtam-cart-collaterals input[name=apply_coupon], .woocommerce #content input.button, .woocommerce #place_order, .woocommerce #respond input#submit, .woocommerce #respond input#submit.alt, .woocommerce .button.wc-backward, .woocommerce .cross-sells .add_to_cart_button, .woocommerce .woocommerce-Button.button, .woocommerce .woocommerce-button.button, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit, .woocommerce .woocommerce-message .vamtam-close-notice-btn, .woocommerce a.added_to_cart, .woocommerce a.button, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce button.button.alt, .woocommerce button.button.alt.disabled, .woocommerce input.button, .woocommerce input.button.alt, .woocommerce-page #content input.button, .woocommerce-page #respond input#submit, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon], .woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon], a.comment-reply-link, button, input[type=button], input[type=submit], .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link, .wp-block-button__link, .woocommerce .vamtam-cart-collaterals .coupon details .content>button[type=submit], .woocommerce.woocommerce-page #payment #place_order, .woocommerce.woocommerce-page .cart-collaterals .wc-proceed-to-checkout .checkout-button, .woocommerce.woocommerce-page .checkout_coupon .button[name=apply_coupon] {
+  background: var(--vamtam-accent-color-5);
+  color: var(--vamtam-accent-color-5-hc);
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 18px 42px;
+}
+.woocommerce ul.products li.product .button, .woocommerce ul.products li.product a.added_to_cart  {
+  padding-top: 20px; /* remove this line */
+  font-weight: 500 !important;
+  width: calc(100% - 80px);
+}
+.button:hover, .vamtam-cart-collaterals input[name=apply_coupon]:hover, .woocommerce #content input.button:hover, .woocommerce #place_order:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce .button.wc-backward:hover, .woocommerce .cross-sells .add_to_cart_button:hover, .woocommerce .woocommerce-Button.button:hover, .woocommerce .woocommerce-button.button:hover, .woocommerce .woocommerce-form-login .woocommerce-form-login__submit:hover, .woocommerce .woocommerce-message .vamtam-close-notice-btn:hover, .woocommerce a.added_to_cart:hover, .woocommerce a.button.alt:hover, .woocommerce a.button:hover, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:hover, .woocommerce button.button:hover, .woocommerce input.button.alt:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce.widget_shopping_cart .widget_shopping_cart_content .buttons a.button:hover, .woocommerce.woocommerce-cart .cart-collaterals .wc-proceed-to-checkout .checkout-button:hover, .woocommerce.woocommerce-cart .vamtam-cart-collaterals .coupon button[name=apply_coupon]:hover, .woocommerce.woocommerce-checkout .checkout_coupon .button[name=apply_coupon]:hover, a.comment-reply-link:hover, button:hover, input[type=button]:hover, input[type=submit]:hover, .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link:hover, .wp-block-button__link:hover, .woocommerce .vamtam-cart-collaterals .coupon details .content>button[type=submit]:hover, .woocommerce.woocommerce-page #payment #place_order:hover, .woocommerce.woocommerce-page .cart-collaterals .wc-proceed-to-checkout .checkout-button:hover, .woocommerce.woocommerce-page .checkout_coupon .button[name=apply_coupon]:hover {
+  background: var(--vamtam-accent-color-1);
+  color: var(--vamtam-accent-color-1-hc);
+  text-decoration: inherit !important;
+}
+
+.woocommerce .vamtam-cart-collaterals .coupon details .content>button[type=submit], .woocommerce.woocommerce-page #payment #place_order, .woocommerce.woocommerce-page .cart-collaterals .wc-proceed-to-checkout .checkout-button, .woocommerce.woocommerce-page .checkout_coupon .button[name=apply_coupon] {}
+html body .vamtam-body-sidebar .widget .widgettitle {
+  font-size: 1.5em;
+}
+html body .widget_product_search .woocommerce-product-search input[name="s"], .widget_search .searchform input[name="s"] {
+  padding: 0.3em 3.7em 0.3em 1em !important;
+}
+html body .widget_product_search .woocommerce-product-search:hover:before, .widget_search .searchform:hover:before {
+  color: var(--vamtam-accent-color-3) !important;
+}
+#main-menu .menu>.menu-item .sub-menu.invert-position {
+  left: -86%;
+}
+.comments .comment-author img, .woocommerce #reviews #comments .comment-author img {
+  margin-right: calc(var(--vamtam-content-space-m) + 5px);
+}
+
+body #header-404 .line-1 {
+  font-family: var(--vamtam-h1-font-family);
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding-left: 0;
+  color: var(--vamtam-accent-color-6);
+}
+body #header-404 .line-2 {
+  font-family: var(--vamtam-h2-font-family);
+  font-size: 46px;
+}
+body .page-404 input[name=s] {
+  font-size: 14px;
+  padding-right: 160px;
+}
+body .page-404 input[type=submit] {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 0em 3em !important;
+  height: 60px;
+  font-size: 14px;
+}
+
+@media (min-width: 1025px) {
+  body.layout-full:not(.single-post):not(.woocommerce-cart):not(.woocommerce-checkout) .page-header {
+    text-align: left;
+    align-items: start;
+  }
+  body.single-post:not(.layout-left-only):not(.layout-right-only) .single-post-meta-wrapper .meta-top .meta-left {
+    justify-content: center;
+  }
+  body.single-post .meta-header .meta-header-inside {
+    padding-bottom: 0;
+  }
+  body .loop-wrapper.regular .list-item.sticky header h4 {
+    font-size: 34px;
+    line-height: 1.3em;
+  }
+}
+@media (max-width: 1024px) {
+  body:not(.single-post) .meta-header .meta-header-inside {
+    padding: var(--vamtam-content-space-xl) 0 var(--vamtam-content-space-m) 0;
+  }
+
+  .meta-header-inside {
+    min-height: 12vh;
+  }
+  html body.single-post.layout-full .limit-wrapper {
+    --vamtam-site-max-width: auto;
+  }
+  body.responsive-layout.single-post .single-post-wrapper .post-media .media-inner {
+    max-width: 100%;
+  }
+  body .page-wrapper>aside.left {
+    margin-right: 0;
+    border-right: 0;
+  }
+
+  html .responsive-layout #sub-header .meta-header-inside .vamtam-meta-tax,
+  html body.responsive-layout #sub-header .meta-header-inside .vamtam-meta-tax a {
+    margin-bottom: 20px; /* remove this line */
+    text-align: left;
+  }
+  body .meta-header .meta-header-inside {
+    padding-bottom: 0;
+  }
+  body.single-post:not(.layout-left-only):not(.layout-right-only) .meta-header .meta-header-inside::after {
+    margin-left: 0;
+  }
+
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-author,
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-comments,
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-date,
+  body.single-post.layout-left-only .loop-wrapper .meta-top .vamtam-meta-tax {
+    line-height: 2.5em !important;
+  }
+
+  body #sub-header {
+    border-top: 0;
+  }
+  html body.responsive-layout .vamtam-cart-main .product-price {
+    grid-column: 3;  /* remove this line */
+  }
+  html body.responsive-layout .vamtam-cart-main .product-remove {
+    grid-column: 4;
+    align-self: auto;
+  }
+  html .woocommerce .vamtam-cart-main .product-remove a svg {
+    margin-top: 1rem;
+  }
+  html body.responsive-layout .comments .avatar, body.responsive-layout .woocommerce #reviews #comments .avatar {
+    max-width: initial !important;
+    margin-right: var(--vamtam-content-space-l);
+  }
+  body.responsive-layout .comments .comment .comment, body.responsive-layout .woocommerce #reviews #comments .comment .comment {
+    padding-top: var(--vamtam-content-space-l);
+  }
+  body.responsive-layout .comments .comment .comment .comment-content, body.responsive-layout .woocommerce #reviews #comments .comment .comment .comment-content {
+    padding: inherit;
+  }
+  body.responsive-layout.single-post .single-post-wrapper p {
+    margin: 0 0 1em 0;
+  }
+}
+@media (max-width: 959px) {
+  html body.responsive-layout header.main-header .header-padding {
+    padding-bottom: 0px;
+    padding-top: 0;
+  }
+  body.responsive-layout .fixed-header-box {
+    background: var(--vamtam-accent-color-6);
+    color: var(--vamtam-accent-color-6-hc);
+  }
+  body.responsive-layout header.main-header .first-row {
+    min-height: initial;
+    padding: 5px 0px;
+  }
+  body.responsive-layout header.main-header .first-row .logo-wrapper .text-logo {
+    color: var(--vamtam-accent-color-6-hc);
+    font-size: 120%;
+    line-height: 100%;
+  }
+  body.responsive-layout header.main-header .first-row .logo-wrapper .logo-tagline {
+    text-align: center;
+  }
+  body.responsive-layout header.main-header .logo-wrapper .mobile-logo-additions {
+    position: absolute;
+    left: 0px;
+    padding: 0px;
+  }
+
+  body:not(.single-post) .page-header h1 {
+    font-size: 40px;
+  }
+
+  html body.responsive-layout #vamtam-fallback-main-menu-toggle {
+    margin-top: 0;
+    height: 20px;
+    text-align: center;
+  }
+  html body.responsive-layout #main-menu .menu {
+    background: var(--vamtam-accent-color-6);
+    border-top: none;
+  }
+
+  html body #main-menu .menu>.menu-item .sub-menu-wrapper .sub-menu {
+    border: 0;
+  }
+
+  html body.responsive-layout #main-menu .menu .menu-item>a>span {
+    position: relative;
+    display: block;
+  }
+  html body.responsive-layout #main-menu .menu .menu-item>a>span:after {
+    display: block;
+    background: red;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 0;
+  }
+
+  html body.responsive-layout #main-menu .menu>.menu-item>a, html body.responsive-layout #main-menu .menu .menu-item .sub-menu .menu-item:not(:last-child) a {
+      border-color: #FFFFFF29 !important;
+  }
+  html body #main-menu .menu>.menu-item>.sub-menu-wrapper>.sub-menu{
+    border-bottom: 1px solid #FFFFFF29 !important;
+  }
+  html body.responsive-layout #main-menu .menu>.menu-item>a {
+    font-size: 16px;
+    line-height: 1.4em;
+    padding: 1.1em 20px;
+    border-radius: 0 !important;
+    color: var(--vamtam-accent-color-5);
+  }
+  html body.responsive-layout #main-menu .menu>.menu-item:focus-within .sub-menu .menu-item a, html body.responsive-layout #main-menu .menu>.menu-item:hover .sub-menu .menu-item a {
+    font-size: 16px;
+    line-height: 1.9em;
+    font-weight: inherit;
+    padding-left: 30px;
+
+    text-transform: uppercase;
+  }
+  #main-menu .menu>.menu-item:is( .current-menu-item,.current_page_item,.current-menu-ancestor .current-menu-parent .current_page_parent,.current_page_ancestor,:hover )>a , #main-menu .menu>.menu-item .sub-menu .menu-item:is( .current-menu-item,.current_page_item,.current-menu-ancestor .current-menu-parent .current_page_parent,.current_page_ancestor,:hover )>a {
+    color: var(--vamtam-accent-color-1);
+  }
+
+
+  html body.responsive-layout #vamtam-fallback-main-menu-toggle::before {
+    content: url("data:image/svg+xml,%3Csvg height='16' viewBox='0 0 28 18' width='25' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='m0 .284271h28v17h-28z'/%3E%3Cg fill='white' fill-rule='nonzero' transform='translate(0 .284271)'%3E%3Cpath d='m27.3858268 15c.3391985 0 .6141732.3357864.6141732.75 0 .3796958-.2310551.693491-.5308336.7431534l-.0833396.0068466h-26.77165357c-.33919851 0-.61417323-.3357864-.61417323-.75 0-.3796958.23105515-.693491.53083356-.7431534l.08333967-.0068466z'/%3E%3Cpath d='m27.3858268 7.5c.3391985 0 .6141732.33578644.6141732.75 0 .37969577-.2310551.69349096-.5308336.74315338l-.0833396.00684662h-26.77165357c-.33919851 0-.61417323-.33578644-.61417323-.75 0-.37969577.23105515-.69349096.53083356-.74315338l.08333967-.00684662z'/%3E%3Cpath d='m27.3858268 0c.3391985 0 .6141732.33578644.6141732.75 0 .37969577-.2310551.69349096-.5308336.74315338l-.0833396.00684662h-26.77165357c-.33919851 0-.61417323-.33578644-.61417323-.75 0-.37969577.23105515-.69349096.53083356-.74315338l.08333967-.00684662z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+  html body.responsive-layout #vamtam-fallback-main-menu-toggle.mega-menu-open::before {
+    content: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='white' viewBox='0 0 32 32'%3E%3Ctitle%3Eclose%3C/title%3E%3Cpath d='M29.544 0.952c0.416-0.416 1.089-0.416 1.505 0s0.416 1.089 0 1.505l-13.543 13.543 13.543 13.544c0.416 0.416 0.416 1.089 0 1.505s-1.089 0.416-1.505 0l-13.544-13.543-13.543 13.543c-0.381 0.381-0.979 0.413-1.396 0.095l-0.109-0.095c-0.416-0.416-0.416-1.089 0-1.505l13.543-13.544-13.543-13.543c-0.416-0.416-0.416-1.089 0-1.505s1.089-0.416 1.505 0l13.543 13.543z'%3E%3C/path%3E%3C/svg%3E%0A");
+  }
+}
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  body.responsive-layout .page-wrapper>.vamtam-body-sidebar, body.responsive-layout .vamtam-main:not(.layout-full) .vamtam-related-content, body.responsive-layout .vamtam-main:not(.layout-full) article, body.responsive-layout header.main-header .header-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product {
+    width: 100%;
+  }
+  .woocommerce div.product .woocommerce-tabs>ul.tabs li {
+    display: block;
+  }
+  .woocommerce div.product .woocommerce-tabs>ul.tabs li a {
+    margin: 10px 0;
+  }
+  html body.responsive-layout .woocommerce .cart-collaterals, body.responsive-layout.woocommerce .cart-collaterals {
+    margin-left: 0px;
+    margin-right: 0;
+    width: auto;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main {
+    padding: 20px 0 20px 0;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .cart_item {
+    padding: 30px 0;
+    grid-template-columns: min(25%,70px) auto auto;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-thumbnail {
+    grid-row: 1/3;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-name {
+    grid-column: 2/3;
+    padding: 0 20px 0 20px;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-price {
+    grid-column: 1/4;
+    margin-top: 10px;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove {
+    grid-row: 1/2;
+    grid-column: 3/4;
+  }
+  html body.woocommerce.woocommerce-cart .vamtam-woocommerce-cart-form-wrapper .vamtam-cart-main .product-remove a svg {
+    margin-top: 0;
+  }
+  html body.woocommerce.woocommerce #quantity input.qty, .woocommerce .quantity input.qty {
+    min-height: 40px;
+    padding: 0 1rem 0 1.1rem !important;
+    max-width: 70px;
+  }
+  html body.responsive-layout .woocommerce .products.vamtam-wc .product span.onsale, body.responsive-layout.woocommerce .products.vamtam-wc .product span.onsale {
+    top: initial;
+    right: initial;
+  }
+  html body.responsive-layout .comments .comment-author {
+    display: block;
+  }
+  html body.responsive-layout .comments .comment-author img {
+    max-width: 40px!important;
+    margin-top: 5px;
+    margin-right: 10px!important;
+  }
+  body.responsive-layout.woocommerce.woocommerce-checkout .checkout_coupon {
+    padding: 30px;
+  }
+  body.responsive-layout .loop-wrapper.regular .list-item.sticky .post-content-outer {
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .widget .wc-block-grid.has-2-columns li.wc-block-grid__product:nth-child(2n+0){
+    border: none;
+  }
+  body .loop-wrapper.regular .list-item {
+    margin-bottom: 40px!important;
+  }
+}
