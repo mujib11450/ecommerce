@@ -1,0 +1,32 @@
+@import (reference) '../../general/main/elementor-wc-mixins.less';
+
+body.responsive-layout {
+    &.woocommerce.woocommerce-cart {
+        // Sub-header.
+        .elementor-wc-sub-header-max();
+        // Limit wrapper.
+        .elementor-wc-limit-wrapper-max();
+
+		// From Customizer.
+		.from-customizer-max();
+    }
+}
+
+.from-customizer-max() {
+
+	.vamtam-woocommerce-cart-form-wrapper .vamtam-cart-collaterals {
+		.cart-collaterals {
+			padding: 15px 40px 22px 40px;
+		}
+
+		.coupon details > summary,
+		.coupon details .content {
+			padding-left: 40px ;
+			padding-right: 40px ;
+		}
+
+		.coupon details .content {
+			padding-bottom: 50px ;
+		}
+	}
+}

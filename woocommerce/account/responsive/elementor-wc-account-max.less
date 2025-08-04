@@ -1,0 +1,59 @@
+@import (reference) '../../general/main/elementor-wc-mixins.less';
+
+body.responsive-layout {
+    &.woocommerce.woocommerce-account {
+        // Sub-header.
+        .elementor-wc-sub-header-max();
+        // Limit wrapper.
+        .elementor-wc-limit-wrapper-max();
+
+		// From Customizer.
+		.from-customizer-max();
+    }
+}
+
+.from-customizer-max() {
+	.woocommerce-MyAccount-content {
+		> p {
+			padding: 0 2%;
+
+			&:first-of-type {
+				padding: 35px 0px 20px 0px;
+				padding-left: 2%;
+			}
+		}
+
+		form {
+			padding-top: 30px;
+			padding-left: 2%;
+		}
+
+		.col2-set {
+			padding-left: 2% !important;
+		}
+
+		table {
+			margin-left: 2%;
+		}
+
+		.woocommerce-order-details {
+			margin-top: 40px;
+			margin-bottom: 65px;
+		}
+
+		.woocommerce-order-details .woocommerce-order-details__title,
+		.woocommerce-customer-details {
+			margin-left: 2%;
+		}
+	}
+
+	nav.woocommerce-MyAccount-navigation ul {
+		padding: 2.1em 3em;
+	}
+
+	form.woocommerce-ResetPassword p:first-of-type {
+		width: 800px;
+		margin-bottom: 70px;
+	}
+
+}

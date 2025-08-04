@@ -1,0 +1,21 @@
+@import (reference) '../../general/main/elementor-wc-mixins.less';
+body.responsive-layout {
+    &.woocommerce.woocommerce-account {
+        // Sub-header.
+        .elementor-wc-sub-header-small();
+        // Limit wrapper.
+        .elementor-wc-limit-wrapper-small();
+
+		// From Customizer.
+		.from-customizer-small();
+    }
+}
+
+.from-customizer-small() {
+	.woocommerce-MyAccount-content table td {
+		border-left-width: 0;
+		border-right-width: 0;
+		border-bottom: 0;
+		background-color: transparent !important;
+	}
+}

@@ -1,0 +1,22 @@
+/*
+    WC Styles shared accross all pages (pure WC pages + Elementor pages).
+*/
+
+body.responsive-layout {
+	&.woocommerce {
+		.woocommerce-error .button,
+		.woocommerce-info .button,
+		.woocommerce-message .button,
+		&.woocommerce-page .woocommerce-error .button,
+		&.woocommerce-page .woocommerce-info .button,
+		&.woocommerce-page .woocommerce-message .button {
+			margin-bottom: 5px;
+		}
+
+		.woocommerce-result-count,
+		.woocommerce-ordering {
+			float: none;
+			padding-bottom: 10px;
+		}
+	}
+}

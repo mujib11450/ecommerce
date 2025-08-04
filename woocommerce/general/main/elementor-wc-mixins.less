@@ -1,0 +1,319 @@
+@import (reference) '../../../elementor-mixins.less';
+@import (reference) '../../../elementor-animations.less';
+
+// Sub Header
+.elementor-wc-sub-header() {
+	#sub-header {
+		border: 0;
+
+		.vamtam-limited-layout & {
+			border-bottom: 1px solid var(--vamtam-default-line-color);
+		}
+
+		&.has-background {
+			border-top: none;
+
+			.meta-header-inside {
+				display: flex;
+				align-items: flex-start;
+
+				body.layout-full & {
+					justify-content: center;
+					text-align: center;
+				}
+			}
+
+			.page-header .page-header-line {
+				border-color: var( --vamtam-accent-color-5 );
+				opacity: .2;
+			}
+		}
+
+		.meta-header {
+			position: relative;
+
+			.meta-header-inside {
+				padding: 0;
+				display: flex;
+				justify-content: center;
+				flex-flow: column;
+				padding: 0 0 30px 0;
+				box-sizing: border-box;
+
+				.vamtam-meta-tax {
+					order: -1;
+					width: 100%;
+					&:extend( .vamtam-font-h5 );
+
+					&, a {
+						margin-bottom: 20px;
+					}
+				}
+			}
+		}
+
+		.page-header {
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			width: 100%;
+
+			.page-header-line {
+				display: block;
+				width: auto;
+				height: 0;
+				margin-top: 15px;
+				width: 100px;
+				border-bottom: 1px solid var( --vamtam-default-line-color );
+			}
+
+			h1 {
+				margin: 0px;
+				overflow-wrap: break-word;
+				max-width: 100%;
+
+				a {
+					color: var( --vamtam-h1-color );
+				}
+
+				.search & span {
+					display: block;
+					line-height: 1.4em;
+					font-size: 0.5em;
+
+					&::before,
+					&::after {
+						content: ' " ';
+					}
+				}
+			}
+
+			.desc {
+				font-family: var( --vamtam-primary-font-font-family );;
+				font-size: var(--vamtam-h6-font-size-desktop);
+				line-height: 1.2em;
+				padding-top: 0;
+				font-style: normal;
+				padding-bottom: .9em;
+			}
+		}
+
+		// Breadcrumbs.
+		.checkout-breadcrumb {
+			line-height: 1.0em;
+
+			.icon.shortcode {
+				line-height: 1.15;
+				font-size: 20px;
+				padding: 0 20px;
+				vertical-align: middle !important;
+				color: var( --vamtam-default-line-color );
+			}
+
+			.title-part-inactive {
+				&, a:not(:hover) {
+					color: rgba(var(--vamtam-accent-color-6-rgb), .3);
+				}
+			}
+		}
+	}
+}
+// Sub Header max.
+.elementor-wc-sub-header-max() {
+	#sub-header {
+		.meta-header-inside {
+			min-height: 15vh;
+		}
+		.page-header {
+			justify-content: center;
+		}
+
+		&.layout-full .page-header {
+			text-align: center;
+			align-items: center;
+		}
+	}
+}
+// Sub Header below-max.
+.elementor-wc-sub-header-below-max() {
+	#sub-header {
+		// Breadcrumbs.
+	   .checkout-breadcrumb .icon.shortcode {
+			font-size: 14px;
+			padding: 0 5px 0 5px;
+		}
+		.meta-header-inside {
+			padding: 40px 0 40px 0;
+		}
+	}
+}
+// Sub Header small.
+.elementor-wc-sub-header-small() {
+	#sub-header {
+		.vamtam-box-outer-padding,
+		.limit-wrapper,
+		.header-padding {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		// Breadcrumbs.
+		.checkout-breadcrumb {
+			.icon.shortcode {
+				font-size: 14px;
+				padding: 0 5px 0 5px;
+			}
+		}
+
+		.vamtam-cart-collaterals {
+			.vamtam-sticky-wrapper {
+				.cart-collaterals {
+					padding: 30px 20px 20px 20px;
+					margin-left: -20px;
+					margin-right: -20px;
+					width: calc(100% + 40px);
+				}
+			}
+		}
+	}
+}
+
+// Limit-wrapper
+.elementor-wc-limit-wrapper() {
+	.limit-wrapper {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: var(--vamtam-site-max-width);
+		width: auto;
+	}
+}
+// Limit-wrapper max
+.elementor-wc-limit-wrapper-max() {
+	.limit-wrapper {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+// Limit-wrapper max-low
+.elementor-wc-limit-wrapper-max-low() {
+	.limit-wrapper {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+// Limit-wrapper below-max
+.elementor-wc-limit-wrapper-below-max() {
+	.limit-wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+// Limit-wrapper small
+.elementor-wc-limit-wrapper-small() {
+	.limit-wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+// WC buttons
+.elementor-wc-buttons() {
+	.woocommerce.woocommerce-page .cart-collaterals .wc-proceed-to-checkout .checkout-button,
+	.woocommerce.woocommerce-page .vamtam-cart-collaterals .coupon button[name=apply_coupon],
+	.woocommerce.woocommerce-page .checkout_coupon .button[name=apply_coupon],
+	.woocommerce.woocommerce-page #place_order,
+	.woocommerce.woocommerce-page .woocommerce-form-login .woocommerce-form-login__submit,
+	.woocommerce.woocommerce-page .woocommerce-Button.button,
+	.woocommerce.woocommerce-page .woocommerce-button.button,
+	.woocommerce.woocommerce-page.woocommerce-cart .cross-sells ul.products > li.product .button.add_to_cart_button {
+		.standard-wc-button();
+	}
+}
+.standard-wc-button() {
+	.standard-button();
+}
+
+// WC form inputs
+.elementor-wc-form-inputs() {
+	input:not([type="radio"]):not([type="checkbox"]),
+	select,
+	textarea,
+	.select2.select2-container .select2-selection[role="combobox"] {
+		.standard-wc-form-input();
+	}
+	.select2-dropdown {
+		border-radius: var( --vamtam-input-border-radius );
+		border: 2px solid var( --vamtam-accent-color-2);
+		.select2-search {
+			&, .select2-search__field {
+				border: 0 !important;
+			}
+		}
+	}
+}
+.standard-wc-form-input() {
+	box-sizing: border-box;
+	height: auto;
+	&:not([class*=elementor-size]) {
+		min-height: 50px;
+	}
+	width: 100%;
+	position: relative;
+	outline: none;
+	margin: 0;
+	appearance: none;
+	background-color: var( --vamtam-input-bg );
+	color: var( --vamtam-accent-color-2 );
+	caret-color: var(--vamtam-accent-color-1) !important;
+	padding: 14px 20px;
+	line-height: 1.5;
+	border-radius: var( --vamtam-input-border-radius );
+	border: 1px solid var( --vamtam-default-line-color);
+
+	&:extend( .vamtam-font-primary-font );
+
+	&:is(:focus, :focus-visible) {
+		outline: none;
+	}
+}
+
+// WC form labels
+.elementor-wc-form-labels() {
+	label {
+		.standard-wc-form-label();
+	}
+}
+.standard-wc-form-label() {
+	color: var(--vamtam-primary-font-color);
+	font-family: var(--vamtam-primary-font-font-family);
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 30px;
+}
+
+// WC notices
+.elementor-wc-notices() {
+	body.woocommerce {
+		.woocommerce-notices-wrapper > ul {
+			margin: 0 0 30px 0;
+		}
+
+		.woocommerce-error,
+		.woocommerce-info,
+		.woocommerce-message {
+			&::before {
+				display: none;
+			}
+			background-color: var( --vamtam-accent-color-5 );
+			border: solid 1px var(--vamtam-default-line-color);
+		}
+
+		.woocommerce-error {
+			border-color: #b81c23;
+			color: #b81c23;
+			text-shadow: none;
+		}
+	}
+}

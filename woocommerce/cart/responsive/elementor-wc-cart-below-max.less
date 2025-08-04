@@ -1,0 +1,29 @@
+@import (reference) '../../general/main/elementor-wc-mixins.less';
+
+body.responsive-layout {
+    &.woocommerce.woocommerce-cart {
+        // Sub header.
+        .elementor-wc-sub-header-below-max();
+        // Limit wrapper.
+        .elementor-wc-limit-wrapper-below-max();
+
+        .vamtam-woocommerce-cart-form-wrapper {
+            flex-direction: column;
+
+            .vamtam-cart-collaterals {
+                flex-basis: auto;
+                padding: 0px !important;
+            }
+
+        }
+
+		// From Customizer.
+		.from-customizer-below-max();
+    }
+}
+
+.from-customizer-below-max() {
+	.vamtam-woocommerce-cart-form-wrapper .vamtam-cart-collaterals .cart-collaterals {
+        padding: 12px 30px 13px 30px;
+    }
+}

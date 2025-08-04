@@ -1,0 +1,65 @@
+/*
+    WC Styles shared accross all pages (pure WC pages + Elementor pages).
+*/
+body.woocommerce {
+	.woocommerce-error,
+	.woocommerce-info,
+	.woocommerce-message {
+		background-color: var(--vamtam-accent-color-5);
+		margin: 1em 0;
+		border: 1px solid;
+		padding: 20px 30px;
+		border-bottom-width: 3px;
+	}
+	.woocommerce-info {
+		border-color: #1e85be;
+	}
+	.woocommerce-info::before {
+		color: #1e85be;
+	}
+	.woocommerce-message {
+		border-color: #8fae1b;
+	}
+	.woocommerce-message::before {
+		color: #8fae1b;
+	}
+	.woocommerce-error {
+		border-color: #b81c23;
+	}
+	.woocommerce-error::before {
+		color: #b81c23;
+	}
+
+
+	.woocommerce-error .button,
+	.woocommerce-info .button,
+	.woocommerce-message .button,
+	&.woocommerce-page .woocommerce-error .button,
+	&.woocommerce-page .woocommerce-info .button,
+	&.woocommerce-page .woocommerce-message .button {
+		font-size: 80%;
+	}
+
+	.woocommerce-result-count {
+		margin: 0;
+		line-height: 2em;
+	}
+
+	.woocommerce-message {
+		&::before {
+			display: none;
+		}
+	}
+}
+
+
+.woocommerce {
+	ul.products li.product .price ins {
+		font-weight: inherit;
+	}
+
+	.blockUI.blockOverlay {
+		background-color: var(--vamtam-accent-color-4) !important;
+		border-color: var(--vamtam-accent-color-4) !important;
+	}
+}

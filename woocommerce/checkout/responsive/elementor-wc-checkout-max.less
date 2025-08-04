@@ -1,0 +1,20 @@
+@import (reference) '../../general/main/elementor-wc-mixins.less';
+
+body.responsive-layout {
+    &.woocommerce.woocommerce-checkout {
+        // Sub-header.
+        .elementor-wc-sub-header-max();
+        // Limit wrapper.
+        .elementor-wc-limit-wrapper-max();
+
+		// From Customizer.
+		.from-customizer-max();
+    }
+}
+
+.from-customizer-max() {
+
+	form.checkout.woocommerce-checkout .col2-set .col-2 {
+        padding: 35px 40px 25px 40px;
+	}
+}
