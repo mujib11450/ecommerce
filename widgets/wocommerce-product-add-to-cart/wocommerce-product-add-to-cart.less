@@ -1,0 +1,218 @@
+// Product Add To Cart.
+.elementor-widget-woocommerce-product-add-to-cart {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.elementor-widget-container {
+			form.cart {
+				margin: 0;
+
+				.reset_variations {
+					display: none !important;
+				}
+				.variations {
+					margin-bottom: 0;
+
+					td.label {
+						padding: 0;
+						line-height: initial;
+						width: 120px;
+					}
+
+					select {
+						min-width: 60px;
+						box-sizing: border-box;
+						padding: 6px 20px;
+						min-height: 47px;
+						margin-right: 15px;
+						position: relative;
+						outline: 0;
+						appearance: none;
+						background: url(data:image/svg+xml,%3Csvg%20aria-hidden%3D%22true%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20320%20512%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M31.3%20192h257.3c17.8%200%2026.7%2021.5%2014.1%2034.1L174.1%20354.8c-7.8%207.8-20.5%207.8-28.3%200L17.2%20226.1C4.6%20213.5%2013.5%20192%2031.3%20192z%22%2F%3E%3C%2Fsvg%3E) no-repeat right 20px top 50%/12px!important;
+					}
+				}
+				.vamtam-count-wrap {
+					max-width: 100px;
+				}
+				#quantity {
+					input.qty {
+						max-width: 100%;
+					}
+				}
+				div.quantity {
+					margin: 0;
+					input.qty {
+						outline: none !important;
+						width:60px;
+						height:100%;
+					}
+				}
+				.single_add_to_cart_button {
+
+					&.loading:after {
+						display: inline-block; // To clear inherited text-decoration (underline).
+						position: relative;
+						top: unset;
+						right: unset;
+						margin-left: 10px;
+					}
+
+					&.disabled,
+					&.disabled:hover,
+					&:disabled,
+					&:disabled:hover,
+					&:disabled[disabled],
+					&:disabled[disabled]:hover {
+						opacity: .5;
+						pointer-events: none !important;
+					}
+				}
+			}
+			form.variations_form {
+				table.variations {
+					tr {
+						border: 0;
+					}
+				}
+				.woocommerce-variation-price {
+					&:not(:first-child) {
+						margin-top: 10px;
+					}
+				}
+				.single_variation {
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+		.woocommerce-variation-price {
+			font-family: var(--vamtam-h5-font-family); /* This is a good option to be able to align with the Product Price widget without the code.  https://www.dropbox.com/s/vvco4bq5c7ldl1q/Screenshot%202021-05-28%20at%2020.41.19.png?dl=0 */
+			.price {
+				color: inherit;
+			}
+		}
+
+		.added_to_cart {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		&.elementor-add-to-cart--align-justify {
+			.added_to_cart {
+				flex-basis: 100%;
+			}
+		}
+
+		// Gift Card.
+		form.variations_form.cart {
+			table.variations {
+				td.label {
+					width: auto;
+				}
+
+				td.value select {
+					padding: 0;
+					width: 280px;
+				}
+			}
+
+			.variations select {
+				background: url(data:image/svg+xml,%3Csvg%20aria-hidden%3D%22true%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20320%20512%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M31.3%20192h257.3c17.8%200%2026.7%2021.5%2014.1%2034.1L174.1%20354.8c-7.8%207.8-20.5%207.8-28.3%200L17.2%20226.1C4.6%20213.5%2013.5%20192%2031.3%20192z%22%2F%3E%3C%2Fsvg%3E) no-repeat right 0px top 50%/12px !important;
+			}
+
+			.woocommerce-variation-add-to-cart {
+				input {
+					min-height: 50px;
+				}
+
+				.pwgc-field-container {
+					min-height: 50px;
+					margin: 0 0 30px;
+				}
+
+				button.single_add_to_cart_button {
+					flex: none;
+				}
+			}
+
+			textarea:focus {
+				outline: 0;
+			}
+		}
+		.elementor-product-pw-gift-card {
+			table.variations {
+				tr {
+					display: flex;
+					flex-wrap: wrap;
+				}
+
+				tr td {
+					width: 100%;
+				}
+
+				tr td:first-of-type {
+					margin-bottom: 5px;
+				}
+			}
+		}
+
+		p.out-of-stock {
+			padding: 14px 0;
+			font-weight: 500;
+			color: var( --e-global-color-vamtam_accent_6);
+			border-top: 1px solid var( --e-global-color-vamtam_accent_7);
+			border-bottom: 1px solid var( --e-global-color-vamtam_accent_7);
+		}
+
+		.pwgc-subtitle{
+			display: none;
+		}
+
+		.cart {
+			&.variations_form {
+				.variations {
+					td {
+						width: 100%;
+						display: block;
+						text-align: start;
+					}
+					th {
+						width: 100%;
+						display: block;
+						text-align: start;
+						margin-bottom: 5px;
+					}
+
+					input, textarea, select {
+						width: 100%;
+					}
+				}
+
+				.reset_variations {
+					visibility: hidden !important;
+					display: none !important;
+
+				}
+
+				.woocommerce-variation-price .price {
+					color: inherit;
+					display: flex;
+					flex-direction: row;
+					align-items: baseline;
+				}
+			}
+
+			.added_to_cart.wc-forward {
+				display: none;
+			}
+		}
+
+		.elementor-editor-active & {
+			.product form.variations_form {
+				.single_variation {
+					display: none;
+				}
+			}
+		}
+
+	}
+}

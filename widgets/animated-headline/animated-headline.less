@@ -1,0 +1,25 @@
+// Animated Headline.
+.elementor-widget-animated-headline {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+
+		&.vamtam-animated-headline {
+			.elementor-headline-dynamic-text span {
+				&:first-child:before,
+				&:last-child:after {
+					content: "\e907";
+					font-family: 'theme-icons';
+					color: var(--vamtam-accent-color-1);
+				}
+
+				&:first-child:before {
+					margin-right: 15px;
+				}
+
+				&:last-child:after {
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+}

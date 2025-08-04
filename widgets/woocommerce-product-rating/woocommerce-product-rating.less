@@ -1,0 +1,24 @@
+// Product Rating.
+.elementor-widget-woocommerce-product-rating {
+	// Base Theme Widget Styles.
+    &.vamtam-has-theme-widget-styles {
+		.star-rating {
+			font-size: 18px;
+			letter-spacing: 8px;
+			width: 7em;
+			margin-right: 10px;
+		}
+		.woocommerce-review-link {
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+
+		.woocommerce-tabs .woocommerce-Reviews .woocommerce-noreviews {
+			&:extend(.vamtam-font-h6);
+		}
+
+		.woocommerce &.vamtam-product-rating .woocommerce-product-rating {
+			margin-bottom: 60px;
+		}
+    }
+}

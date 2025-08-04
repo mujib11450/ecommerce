@@ -1,0 +1,60 @@
+// Search Form.
+.elementor-widget-search-form {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.elementor-widget-container {
+			.elementor-search-form {
+				.elementor-search-form__submit i.fas {
+					font-family: "theme-icons";
+					font-weight: normal;
+				}
+
+				.elementor-search-form__icon i:before,
+				.elementor-search-form__submit i.fa-search:before {
+					content: "\e910" !important;
+				}
+
+				.elementor-search-form__submit {
+					&, &:focus {
+						border: none;
+					}
+				}
+
+				input {
+					border-bottom-width: 0;
+				}
+
+				input:is(:focus,:hover) {
+					border-bottom: none;
+				}
+
+				.elementor-search-form__container input.elementor-search-form__input {
+					padding-left: 0;
+					padding-right: 10px;
+
+					&:hover {
+						border-color: var( --e-global-color-vamtam_accent_1)!important;
+					}
+				}
+			}
+		}
+
+		&.vamtam-dark-search-form {
+			input::placeholder {
+				color: var(--vamtam-accent-color-5);
+				opacity: 1;
+			}
+
+			.elementor-search-form__container:hover {
+				border-color: var(--vamtam-accent-color-1);
+			}
+		}
+
+		&.vamtam-custom-heading .elementor-widget-container h1.elementor-heading-title::after {
+			content: " ~";
+			color: var( --vamtam-accent-color-1);
+		}
+	}
+}
+
+

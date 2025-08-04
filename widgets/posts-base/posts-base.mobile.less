@@ -1,0 +1,20 @@
+// Posts / Archive Posts - Mobile.
+
+// Theme-dependant.
+.posts-base-mobile() {
+	// Pagination Border.
+	&.vamtam-blog-posts .elementor-widget-container .elementor-posts-container {
+        --grid-row-gap: 35px;
+    }
+
+	&.vamtam-blog-featured-post .elementor-widget-container .elementor-posts-container .elementor-post .elementor-post__text {
+        padding: 20px 20px 20px 20px;
+    }
+
+	&[data-widget_type="posts.vamtam_classic"],
+	&[data-widget_type="archive-posts.vamtam_classic"] {
+		[data-elementor-device-mode="mobile"] &:not(.elementor-element-edit-mode).elementor-hidden-mobile {
+			display: none;
+		}
+	}
+}

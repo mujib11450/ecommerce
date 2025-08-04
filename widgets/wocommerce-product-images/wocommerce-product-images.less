@@ -1,0 +1,127 @@
+// Product Images.
+.elementor-widget-woocommerce-product-images {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.woocommerce-product-gallery {
+			display: flex;
+			flex-direction: row-reverse;
+
+			&.vamtam-hide {
+				opacity: 0 !important;
+			}
+
+			>:is(.flex-viewport, .flex-control-thumbs, .woocommerce-product-gallery__wrapper) {
+				flex: 1;
+			}
+		}
+
+		div.images {
+			.flex-control-thumbs {
+				display: flex;
+				flex-direction: column;
+				max-width: 100px;
+				gap: 10px;
+
+				li {
+					transition: opacity .3s ease;
+				}
+
+				&:not(.vamtam-thumbs-loaded) {
+					li {
+						opacity: 0;
+					}
+
+					@keyframes vamtam-thumb-loader {
+						100% { transform: rotate(360deg); transform:rotate(360deg); }
+					}
+					&::after {
+						content: '';
+						position: absolute;
+						top: 50%;
+						width:70px;
+						height:70px;
+						border-radius:50%;
+						translate: 0 -100%;
+						@cirlce-bg: 2px solid var(--vamtam-accent-color-7);
+						border-top: @cirlce-bg;
+						border-right: @cirlce-bg;
+						border-bottom: @cirlce-bg;
+						border-left: 2px solid var(--vamtam-accent-color-5);
+						animation: vamtam-thumb-loader 2s infinite linear;
+					}
+				}
+				&.vamtam-thumbs-loaded {
+					li {
+						opacity: 1;
+					}
+					&::after {
+						opacity: 0;
+					}
+				}
+
+				.woocommerce & {
+					margin-right: 10px;
+				}
+
+				.woocommerce div.product & li {
+					width: 100%;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+
+					img {
+						padding: 8px;
+						border: 2px solid var(--vamtam-accent-color-7);
+					}
+					img.flex-active {
+						border: 2px solid var(--vamtam-accent-color-6);
+						body.e--ua-safari& {
+							will-change: opacity;
+						}
+					}
+				}
+			}
+		}
+
+		span.onsale {
+			display: flex !important;
+			justify-content: center;
+			align-items: center;
+			top: 0;
+			left: 0;
+			right: auto;
+			border-radius: 5px 0 0 0;
+			margin: 0;
+			background-color: var(--vamtam-onsale-bg-color, #77a464);
+			&::after {
+				content: ' ';
+				position: absolute;
+				width: 0;
+				height: 0;
+				left: 0px;
+				right: auto;
+				top: auto;
+				bottom: -7px;
+				border: 7px solid;
+				border-color: transparent transparent transparent var(--vamtam-onsale-bg-color, #77a464);
+			}
+		}
+
+		&.vamtam-onsale-right {
+			span.onsale {
+				border-radius: 0 5px 0 0;
+				&::after {
+					left: auto;
+					right: 0;
+					border-color: transparent var(--vamtam-onsale-bg-color, #77a464) transparent transparent;
+				}
+			}
+		}
+		&:not(.vamtam-has-onsale-yes) {
+			span.onsale {
+				display: none !important;
+			}
+		}
+	}
+}

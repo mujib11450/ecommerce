@@ -1,0 +1,35 @@
+// Nav Menu.
+.elementor-widget-nav-menu {
+	&.vamtam-has-theme-widget-styles {
+		.sub-arrow {
+			font-size: 16px;
+		}
+
+		ul.elementor-nav-menu--dropdown a {
+			&, &:focus, &:hover {
+				border-left: 0;
+			}
+
+		html.ios-safari & li {
+			outline: 0 !important;
+		}
+		}
+
+		.eicon-menu-bar:before {
+			content: "\e903";
+			font-family: 'theme-icons';
+			display: inline-block;
+		}
+
+		.elementor-menu-toggle.elementor-active .elementor-menu-toggle__icon--close.eicon-close::before {
+			content: "\e900";
+			font-family: 'theme-icons';
+		}
+
+		&:not(.vamtam-has-submenu-icon) {
+			.elementor-nav-menu .sub-arrow {
+				display: none;
+			}
+		}
+	}
+}

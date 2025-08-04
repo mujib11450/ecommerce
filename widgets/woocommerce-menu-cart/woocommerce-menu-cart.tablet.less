@@ -1,0 +1,50 @@
+// Menu cart - Tablet.
+.elementor-widget-woocommerce-menu-cart {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		&.elementor-menu-cart--buttons-tablet- {
+			&inline {
+				.elementor-menu-cart__footer-buttons {
+					grid-template-columns: 1fr 1fr;
+				}
+			}
+			&stacked {
+				.elementor-menu-cart__footer-buttons {
+					grid-template-columns: 1fr;
+				}
+			}
+		}
+
+		// Caridad-after.
+		> .vamtam-elementor-menu-cart__header,
+		> .widget_shopping_cart_content .cart_item,
+		> .widget_shopping_cart_content > :not(.woocommerce-cart-form__contents) {
+			padding-left: 30px; // Should also be replicated in Elementor selector (woocommerce-menu-cart.php->padding for footer btns).
+			padding-right: 30px; // Should also be replicated in Elementor selector (woocommerce-menu-cart.php->padding for footer btns).
+		}
+
+		.elementor-menu-cart__container .elementor-menu-cart__main {
+			@top-padding: 27px;
+			padding-top: @top-padding;
+
+			// Ipad safari fix.
+			body[data-elementor-device-mode="tablet"].e--ua-safari & {
+				// On safari (Ipad) there seems to be an issue with applying the proper
+				// intrinsic (1fr) parent height value.
+				height: calc(100% - @top-padding);
+			}
+
+			> .vamtam-elementor-menu-cart__header {
+				padding-top: 0px;
+				padding-bottom: 15px;
+			}
+
+			> .vamtam-elementor-menu-cart__header,
+			> .widget_shopping_cart_content .cart_item,
+			> .widget_shopping_cart_content>:not(.woocommerce-cart-form__contents):not(.elementor-menu-cart__footer-buttons) {
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+	}
+}

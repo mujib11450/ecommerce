@@ -1,0 +1,31 @@
+// Tabs.
+.elementor-widget-tabs {
+	// Base Theme Widget Styles.
+    &.vamtam-has-theme-widget-styles {
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+			.elementor-widget-container .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-tab-desktop-title {
+				padding: 20px;
+			}
+		}
+
+		&.vamtam-force-mobile-hr {
+			.elementor-section.elementor-element {
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+
+		.elementor-tabs-wrapper .elementor-tab-title {
+			border-bottom: solid;
+			border-bottom-width: 2px !important;
+			border-color: transparent;
+			transition: all .3s;
+
+			&.elementor-active {
+				border-bottom: 2px solid currentColor;
+				padding-bottom: 4px;
+			}
+		}
+    }
+}

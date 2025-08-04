@@ -1,0 +1,67 @@
+// Image.
+.elementor-widget-image {
+	&[data-settings*="imageGrowWithScale"],
+	.elementor-editor-active &[class*="imageGrowWithScale"] {
+		.vamtam-image-wrapper {
+			display: inline-block;
+			width: 100%;
+			img {
+				width: 100% !important;
+			}
+		}
+	}
+	&.imageGrowWithScaleLeft .vamtam-image-wrapper {
+		will-change: clip-path;
+		animation-name: vamtam-grow-left;
+		animation-timing-function: cubic-bezier(0.4, 0, 0, 0.9);
+	}
+	&.imageGrowWithScaleRight .vamtam-image-wrapper {
+		will-change: clip-path;
+		animation-name: vamtam-grow-right;
+		animation-timing-function: cubic-bezier(0.4, 0, 0, 0.9);
+	}
+	&.imageGrowWithScaleTop .vamtam-image-wrapper {
+		will-change: clip-path;
+		animation-name: vamtam-grow-top;
+		animation-timing-function: cubic-bezier(0.4, 0, 0, 0.9);
+	}
+	&.imageGrowWithScaleBottom .vamtam-image-wrapper {
+		will-change: clip-path;
+		animation-name: vamtam-grow-bottom;
+		animation-timing-function: cubic-bezier(0.4, 0, 0, 0.9);
+	}
+	img.imageGrowWithScaleLeft,
+	img.imageGrowWithScaleRight,
+	img.imageGrowWithScaleTop,
+	img.imageGrowWithScaleBottom {
+		animation-name: vamtam-scale-out;
+		animation-timing-function: cubic-bezier(0.4, 0, 0, 0.9);
+	}
+
+	&.growFromLeftScroll,
+	&.growFromRightScroll {
+		&.animated-fast .elementor-image img {
+			transition-duration: .1s;
+		}
+		&.animated-slow .elementor-image img {
+			transition-duration: .1s;
+		}
+	}
+
+	&.growFromLeftScroll {
+		@val: calc(100% - var(--vamtam-scroll-ratio));
+		.elementor-image img {
+			clip-path:inset(0 @val 0 0);
+			transition: clip-path .1s ease;
+			will-change: clip-path;
+		}
+	}
+	&.growFromRightScroll {
+		@val: calc(100% - var(--vamtam-scroll-ratio));
+		.elementor-image img {
+			clip-path:inset(0 0 0 @val);
+			transition: clip-path .1s ease;
+			will-change: clip-path;
+		}
+	}
+}

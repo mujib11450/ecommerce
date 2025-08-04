@@ -1,0 +1,38 @@
+// Products / Archive Products / Product Related / Upsells - Tabket.
+
+// Theme-dependant.
+.products-base-tablet() {
+	// WC Products
+    ul.products li.product:not(.product-category) {
+		.woocommerce-loop-product__link {
+			order: 1;
+		}
+		.vamtam-product-content {
+			.woocommerce-loop-product__title {
+				padding: 0 20px;
+			}
+			.price {
+				padding: 0 20px;
+			}
+		}
+	}
+
+	.products li.product :where(.star-rating) {
+		margin: 0px 20px;
+	}
+
+	&.elementor-product-loop-item-tablet--align- {
+		&left ul.products li.product .star-rating {
+			margin-right: auto;
+			margin-left: 20px;
+		}
+	  	&right ul.products li.product .star-rating {
+			margin-left: auto;
+			margin-right: 20px;
+		}
+	  	&center ul.products li.product .star-rating {
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+}

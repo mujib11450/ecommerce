@@ -1,0 +1,22 @@
+// Call To Action.
+.elementor-widget-call-to-action {
+	&.elementor-bg-transform  {
+		body.e--ua-safari & {
+			.elementor-widget-container{
+				-webkit-mask-image: -webkit-radial-gradient(white, black);
+			}
+		}
+	}
+
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		&.vamtam-cta-box {
+			.elementor-cta__button {
+				padding: 0;
+			}
+			.elementor-cta__bg-wrapper {
+				border-radius: 6px;
+			}
+		}
+	}
+}

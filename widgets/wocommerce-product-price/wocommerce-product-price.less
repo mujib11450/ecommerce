@@ -1,0 +1,21 @@
+// Product Price.
+.elementor-widget-woocommerce-product-price {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		p.price {
+			margin: 0;
+			padding: 0;
+		}
+
+		&.vamtam-product-price .elementor-widget-container p.price {
+			display: flex;
+			flex-direction: row-reverse;
+			float: left;
+
+			.woocommerce-Price-amount.amount bdi{
+				margin-right: 10px;
+			}
+		}
+
+	}
+}

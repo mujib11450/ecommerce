@@ -1,0 +1,16 @@
+// Products - Mobile.
+@import '../products-base/products-base.mobile.less';
+
+.elementor-widget-woocommerce-products {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.products-base-mobile();
+
+		// Jolie-only.
+		&:not([class*=elementor-grid-mobile-]) {
+			ul.products {
+				grid-template-columns: repeat(1,1fr);
+			}
+		}
+	}
+}

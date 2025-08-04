@@ -1,0 +1,58 @@
+// WooCommerce Pages
+.elementor-widget-wc-elements {
+	&.vamtam-has-theme-widget-styles {
+
+		input#orderid:focus::placeholder,
+		input#order_email:focus::-webkit-input-placeholder {
+			transition: opacity;
+			opacity: 0.5;
+		}
+
+		input:focus::placeholder,
+		input:focus::-webkit-input-placeholder {
+			transition: opacity;
+			opacity: 0.5;
+		}
+
+		textarea:focus::placeholder,
+		input:focus::-webkit-input-placeholder {
+			transition: opacity;
+			opacity: 0.5;
+		}
+
+		.woocommerce-form-track-order.track_order button.button {
+			border-color: var(--vamtam-accent-color-5);
+			background-color: var(--vamtam-accent-color-6);
+			border-radius: 0;
+			transition-duration: 0.3s;
+
+			&:hover {
+				border-color: var(--vamtam-accent-color-1);
+				background-color: var(--vamtam-accent-color-1);
+				color: var(--vamtam-accent-color-5);
+			}
+		}
+
+		.elementor-widget-container .woocommerce {
+
+			.form-row {
+				display: block;
+				width: 100%;
+				margin: 0 0 35px;
+
+				input {
+					min-height: 50px;
+				}
+			}
+
+			form p:first-child {
+				display: none;
+			}
+
+			form p:last-of-type {
+				margin-bottom: 0;
+				margin-top: 1em;
+			}
+		}
+	}
+}

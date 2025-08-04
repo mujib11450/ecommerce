@@ -1,0 +1,44 @@
+// Testimonial-Carousel.
+.elementor-widget-testimonial-carousel {
+    // Make duplicates of slides that were hidden (inner anims, etc) visible.
+    .swiper-slide-duplicate {
+        .elementor-invisible {
+            visibility: visible;
+        }
+    }
+
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		&.vamtam-custom-carousel {
+			.elementor-main-swiper {
+				i {
+					font-family: 'theme-icons';
+
+					&.eicon-chevron-left::before {
+						content: "\e90a";
+					}
+
+					&.eicon-chevron-right::before {
+						content: "\e90b";
+					}
+
+					&:hover {
+						color: var( --vamtam-accent-color-1);
+					}
+				}
+
+				&:hover i {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
+		}
+
+		&.vamtam-swiper :is(.swiper-container-horizontal, .swiper-horizontal) > .swiper-pagination-progressbar {
+			width: 100%;
+			left: 0;
+			top: auto;
+			bottom: 0;
+		}
+	}
+}

@@ -1,0 +1,113 @@
+// Vamtam Sticky Header.
+.vamtam-sticky-header {
+	z-index: 100;
+	transition: transform .2s ease !important;
+	will-change: transform;
+	left: 0;
+	right: 0;
+
+	// This fade-in is added for the case of initial scroll during page load.
+	// It serves as safeguard against the quick flickering of the header going to a fixed hidden state.
+	> .elementor-container {
+		opacity: 0;
+		// Added here to avoid conflicts with other anims on section.
+		@keyframes vamtam-sticky-header-fadein {
+			0%   { opacity: 0; }
+			90%  { opacity: 0; }
+			99%  { opacity: 1; }
+			100% { opacity: 1; }
+		}
+		animation: vamtam-sticky-header-fadein 1s ease forwards;
+	}
+
+	&.vamtam-sticky-header--transparent-header {
+		transition: transform        .15s linear,
+					background-color .35s ease !important;
+		will-change: transform, background-color;
+	}
+
+	&[class*="vamtam-sticky-header--fixed"] {
+		position: fixed !important;
+	}
+
+	&.vamtam-sticky-header--fixed-shown {
+
+		&.vamtam-sticky-header--transparent-header {
+			background-color: var(--vamtam-sticky-header-bg-color) !important;
+		}
+
+		transform: translateY(0);
+	}
+
+	&.vamtam-sticky-header--fixed-hidden {
+		transform: translateY(-100%);
+	}
+}
+// Vamtam Sticky Header - Body padding normalization.
+[data-elementor-type="header"] {
+	margin-left: var(--vamtam-sticky-mleft);
+	margin-right: var(--vamtam-sticky-mright);
+}
+
+// Jolie-only.
+body:not(.wp-admin):not(.elementor-editor-active) {
+	&.has-mouse-dot {
+		&, * {
+			cursor: none !important;
+		}
+
+		#wpadminbar {
+			&, * {
+				cursor: initial !important;
+			}
+			a {
+				&, * {
+					cursor: pointer !important;
+				}
+			}
+		}
+
+		#mouseDot {
+			pointer-events: none;
+			position: fixed;
+			background-color: var(--vamtam-accent-color-1);
+			border-radius: 50%;
+			z-index: 10000;
+			width: 12px;
+			height: 12px;
+			top: -6px;
+			left: -6px;
+			will-change: transform;
+		}
+	}
+
+	&.has-mouse-circle {
+		#mouseCircle {
+			z-index: 10000;
+			pointer-events: none;
+			position: fixed;
+			border: solid 1px var(--vamtam-accent-color-1);
+			border-radius: 50%;
+			width: 70px;
+			height: 70px;
+			top: -35px;
+			left: -35px;
+			opacity: 0;
+			transition: top .2s linear, left .2s linear, width .2s linear, height .2s linear, opacity 1.2s cubic-bezier(.47,0,.745,.715);
+			will-change: transform,opacity;
+			&.moving{
+				opacity: 1;
+			}
+			&.small {
+				width: 50px;
+				height: 50px;
+				top: -25px;
+				left: -25px;
+			}
+		}
+	}
+}
+
+/* --- Widgets --- */
+// Glob import all max widget styles.
+@import '../../elementor/widgets/**/*.desktop.less';

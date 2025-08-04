@@ -1,0 +1,26 @@
+// Button.
+.elementor-widget-button {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.elementor-button {
+			.elementor-button-content-wrapper {
+				align-items: center;
+			}
+
+			.elementor-button-icon {
+				i {
+					font-size: var(--vamtam-btn-icon-font-size, inherit);
+					color: var(--vamtam-btn-icon-color, inherit);
+				}
+			}
+
+			&:hover {
+				.elementor-button-icon {
+					i {
+						color: var(--vamtam-btn-icon-hover-color, inherit);
+					}
+				}
+			}
+		}
+	}
+}

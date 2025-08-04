@@ -1,0 +1,19 @@
+// Posts.
+@import '../posts-base/posts-base.less';
+
+.elementor-widget-archive-posts {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		.posts-base();
+
+		.elementor-pagination {
+			.page-numbers {
+				padding-bottom: 4px !important;
+			}
+
+			span.current {
+				border-bottom: 1px solid var(--vamtam-accent-color-3);
+			}
+		}
+	}
+}

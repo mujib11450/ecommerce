@@ -1,0 +1,122 @@
+// Posts / Archive Posts.
+
+// Theme-dependant.
+.posts-base() {
+	// Pagination Border.
+	&.elementor-show-pagination-border-yes {
+		.elementor-pagination .page-numbers {
+			border: 1px solid var(--vamtam-default-line-color);
+		}
+	}
+
+	.elementor-widget-container {
+		.elementor-posts-container {
+			.elementor-post {
+				.elementor-post__thumbnail {
+					transition-duration: 1.5s;
+				}
+				&:hover .elementor-post__thumbnail {
+					transform: scale(1.2);
+					transition-duration: 1.5s;
+				}
+
+				.elementor-post__thumbnail__link {
+					overflow: hidden;
+					border-radius: inherit;
+					//  Safari border-radius + overflow: hidden + CSS transform fix 🤮
+					html.safari & {
+						-webkit-mask-image: -webkit-radial-gradient(white, black);
+					}
+				}
+			}
+		}
+	}
+
+	@media only screen and (min-width: 768px) {
+		&.elementor-grid-3 .elementor-posts-container:not(.elementor-posts-masonry) article:nth-child(3n+2) {
+			margin-top: 90px;
+		}
+
+		&.vamtam-blog-featured-post .elementor-widget-container .elementor-posts-container article.elementor-post {
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		&.vamtam-blog-featured-post .elementor-widget-container .elementor-posts-container .elementor-post .elementor-post__text {
+			padding: 30px 30px 30px 30px;
+		}
+	}
+
+	&[data-widget_type="posts.vamtam_classic"],
+	&[data-widget_type="archive-posts.vamtam_classic"] {
+		display: grid;
+		flex-wrap: wrap;
+
+		&:not(.elementor-posts-masonry) {
+			align-items: stretch;
+		}
+
+		.elementor-post {
+			overflow: hidden;
+		}
+
+		.elementor-post__text {
+			-webkit-box-flex: 1;
+			flex-grow: 1;
+		}
+
+		.vamtam-post__categories {
+			display: flex;
+
+			a {
+				color: inherit;
+				text-transform: uppercase;
+
+				&:not(:first-of-type) {
+					padding-left: 5px;
+				}
+			}
+		}
+
+		&.elementor-has-item-ratio .elementor-post__thumbnail img {
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			transform: scale(1);
+		}
+
+		&.elementor-posts--align- {
+			&center {
+				.elementor-post__meta-data {
+					text-align: center;
+					.vamtam-post__categories {
+						justify-content: center;
+					}
+				}
+			}
+			&left {
+				.elementor-post__meta-data {
+					text-align: start;
+					.vamtam-post__categories {
+						justify-content: flex-start;
+					}
+				}
+			}
+			&right {
+				.elementor-post__meta-data {
+					text-align: end;
+					.vamtam-post__categories {
+						justify-content: flex-end;
+					}
+				}
+			}
+		}
+
+		.elementor-post__meta-data {
+			padding: var(--vamtam-content-padding, 0);
+		}
+	}
+}

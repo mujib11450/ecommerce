@@ -1,0 +1,296 @@
+// Product Data Tabs.
+.elementor-widget-woocommerce-product-data-tabs {
+	// Base Theme Widget Styles.
+    &.vamtam-has-theme-widget-styles {
+		.elementor-widget-container {
+			.woocommerce-Tabs-panel--reviews {
+				.woocommerce-noreviews {
+					margin-bottom: var(--vamtam-content-space-l);
+				}
+				#reviews #comments {
+					.comment-text {
+						display: grid;
+						grid-template-columns: repeat(8, 1fr);
+						grid-template-rows: repeat(2, auto);
+						grid-column-gap: 0px;
+						grid-row-gap: 0px;
+						.meta { grid-area: 1 / 1 / 3 / 3; }
+						.star-rating { grid-area: 1 / 3 / 2 / 9; }
+						.description { grid-area: 2 / 3 / 3 / 9; }
+
+						border: 0;
+						padding: 30px 30px 30px 0;
+
+						.meta {
+							display: flex;
+							flex-direction: column;
+							font-size: inherit;
+							margin: 0;
+							.woocommerce-review__author {
+								color: var(--vamtam-accent-color-6);
+								margin-bottom: 10px;
+								font-family: var( --e-global-typography-5b37114-font-family), Kanit;
+								font-size: var( --e-global-typography-5b37114-font-size);
+								font-weight: var( --e-global-typography-5b37114-font-weight);
+								text-transform: var( --e-global-typography-5b37114-text-transform);
+								font-style: var( --e-global-typography-5b37114-font-style);
+								line-height: var( --e-global-typography-5b37114-line-height);
+								letter-spacing: var( --e-global-typography-5b37114-letter-spacing);
+							}
+							.woocommerce-review__dash {
+								display: none;
+							}
+						}
+
+						.star-rating {
+							font-size: 18px;
+							letter-spacing: 8px;
+							width: 7em;
+							margin-bottom: 20px;
+						}
+
+						.description {
+							p {
+								margin: 0;
+							}
+						}
+					}
+
+					li.review {
+						border-bottom: 1px solid var(--vamtam-accent-color-7);
+
+						&:first-of-type {
+							border-top: 1px solid var(--vamtam-accent-color-7);;
+						}
+					}
+
+					.commentlist .review {
+						margin-bottom: 0;
+					}
+
+					ol.commentlist li img.avatar {
+						position: relative;
+						padding: 0px;
+						width: 60px;
+						border: none;
+						margin: 30px 20px 0 0;
+						border-radius: 100%;
+					}
+				}
+				#commentform #submit {
+					border: 0;
+					border-radius: 0;
+					background: var(--vamtam-accent-color-6);
+					padding: 15px 60px;
+					font-weight: normal;
+					transition: 0.3s;
+
+					&:hover {
+						background: var(--vamtam-accent-color-1);
+						color: var(--vamtam-accent-color-5);
+					}
+				}
+				#review_form {
+					margin-top: 50px;
+				}
+
+				.woocommerce-pagination {
+					margin-top: 65px;
+					:is( .prev, .next ) {
+						display: none;
+					}
+					:is( ul.page-numbers, ul.page-numbers > li ) {
+						border: 0;
+					}
+					a.page-numbers {
+						border: 0;
+						margin-left: 10px;
+						margin-right: 10px;
+						&:is(:hover, :active, :focus) {
+							background: transparent;
+							color: var(--vamtam-accent-color-3);
+						}
+					}
+					span.current {
+						color: var(--vamtam-accent-color-3);
+						border-bottom: 1px solid var(--vamtam-accent-color-3);
+						background: transparent;
+						margin-left: 10px;
+						margin-right: 10px;
+					}
+				}
+			}
+			.woocommerce-Tabs-panel--additional_information > h2,
+			.woocommerce-Tabs-panel--reviews .woocommerce-Reviews-title {
+				display: none;
+			}
+			.woocommerce-tabs {
+				.tabs.wc-tabs {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					li {
+						text-align: center;
+						border: 1px solid var(--vamtam-accent-color-2);
+						border-radius: 30px;
+						background: none;
+						padding: 0;
+						margin: 0 10px;
+						a {
+							display: block;
+							text-align: center;
+							padding: 15px 40px;
+							color: var(--vamtam-accent-color-2);
+						}
+						&.active {
+							border: 1px solid var(--vamtam-accent-color-1) !important;
+							background-color: var(--vamtam-accent-color-1);
+							a {
+								color: var(--vamtam-accent-color-1-hc);
+							}
+						}
+					}
+				}
+
+				.woocommerce-Tabs-panel.panel {
+					border-top: 0;
+					padding: 2em 0 2em 0;
+					margin: 0;
+				}
+
+				&:last-child .panel {
+					padding-bottom: 0;
+				}
+
+				&,
+				&:after,
+				> ul:after {
+					display: block;
+					clear: both;
+					content: "";
+				}
+
+				p.stars {
+					margin: 10px 0 !important;
+					a {
+						font-size: 18px;
+						margin-right: 5px;
+						border: var( --vamtam-no-border-link );
+					}
+				}
+			}
+		}
+		&.vamtam-only-reviews {
+			.tabs.wc-tabs,
+			.woocommerce-Tabs-panel:not(.woocommerce-Tabs-panel--reviews) {
+				display: none !important;
+			}
+			.woocommerce-Tabs-panel--reviews {
+				display: block !important;
+			}
+		}
+
+		.woocommerce & {
+			#reviews #comments ol.commentlist {
+				padding-left: 0!important;
+
+				.comment_container .comment-text {
+					margin: 0;
+
+					.description h4 {
+						font-size: var(--e-global-typography-vamtam_h5-font-size);
+					}
+				}
+			}
+
+			#review_form #respond span#reply-title {
+				&:extend(.vamtam-font-h4);
+				margin-bottom: 10px;
+			}
+		}
+
+		.woocommerce-tabs .woocommerce-Reviews .woocommerce-noreviews {
+			&:extend(.vamtam-font-h6);
+		}
+
+		form#commentform {
+			.comment-form-rating {
+				.stars {
+					display: inline-block;
+					line-height: 1em;;
+					margin-left: 8px !important;
+				}
+
+				.required {
+					display: none;
+				}
+			}
+
+			p {
+				margin: 0 0 40px !important;
+			}
+		}
+
+		p.comment-form-author input,
+		p.comment-form-email input {
+			display: block !important;
+			  width: 70%;
+			  min-height: 50px;
+		}
+
+		.comment-form input#wp-comment-cookies-consent {
+			margin-right: 5px;
+			width: 20px;
+			height: 20px;
+			margin-bottom: 2px;
+		}
+
+		.woocommerce-Reviews .comment-text .description p img {
+			width: 21%;
+			margin-top:20px;
+
+			&:nth-child(even) {
+				margin: 0 3%;
+			}
+
+
+			&:last-of-type{
+				margin-right: 0;
+			}
+		}
+
+
+		@media only screen and (max-width: 767px) {
+			.woocommerce-Reviews .comment-text .description p img {
+				width: 46%;
+			}
+		}
+
+		table.shop_attributes {
+			border: 1px solid var(--vamtam-accent-color-7);
+
+			&,
+			:is(th, td) {
+				border-style: solid;
+				text-align: start;
+				padding: 10px 15px;
+			}
+
+			th {
+				border-bottom-color: var(--vamtam-accent-color-7);
+			}
+
+			td {
+				border-bottom-color: var(--vamtam-accent-color-7);
+				border-left: solid 1px var(--vamtam-accent-color-7);
+				padding-bottom: 0;
+				font-style: normal;
+
+				p {
+					padding: 0px 0 10px 0;
+				}
+			}
+		}
+	}
+}

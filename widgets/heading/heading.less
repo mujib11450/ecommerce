@@ -1,0 +1,47 @@
+// Heading.
+.elementor-widget-heading {
+	// Base Theme Widget Styles.
+	&.vamtam-has-theme-widget-styles {
+		&.vamtam-link-custom-color .elementor-widget-container .elementor-heading-title a:hover {
+			color: var(--vamtam-accent-color-6);
+		}
+
+		&.vamtam-heading-is-bubble {
+			.elementor-widget-container {
+				position: relative;
+				background-color: var(--vamtam-bubble-bg-color, var(--vamtam-accent-color-1));
+				border-radius: var(--vamtam-bubble-border-radius);
+				&::after {
+					content: ' ';
+					position: absolute;
+					width: 0;
+					height: 0;
+					@def-tip-size: 7px;
+					bottom: calc((var(--vamtam-bubble-tip-size, @def-tip-size) * -1) + 1px);
+					border: var(--vamtam-bubble-tip-size, @def-tip-size) solid;
+					z-index: -1;
+				}
+			}
+
+			&.vamtam-bubble-tip-left,
+			&:not(.vamtam-bubble-tip-left):not(.vamtam-bubble-tip-right) {
+				.elementor-widget-container {
+					&::after {
+						left: 0;
+						border-color: transparent transparent transparent var(--vamtam-bubble-bg-color, var(--vamtam-accent-color-1));
+					}
+				}
+			}
+			&.vamtam-bubble-tip-right {
+				.elementor-widget-container {
+					&::after {
+						right: 0;
+						border-color: transparent var(--vamtam-bubble-bg-color, var(--vamtam-accent-color-1)) transparent transparent;
+					}
+				}
+			}
+		}
+	}
+}
+
+
